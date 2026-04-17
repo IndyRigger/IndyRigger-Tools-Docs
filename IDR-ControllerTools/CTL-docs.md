@@ -61,15 +61,13 @@ import IDR_ControllerTools
 IDR_ControllerTools.show()
 ```
 
----
+<br>
 
 # **🔴 Suffix Settings**
 
 💡 Before starting, configure the Curve and Shape suffixes to match your pipeline naming. This helps ensure all created nodes follow a consistent standard and integrate smoothly with your team’s workflow.
 
 ![*Enter suffixes for Curve and Shape. Created nodes will follow these names.*](./images/CTL_ControllerCreation_03.gif)
-
-*Enter suffixes for Curve and Shape. Created nodes will follow these names.*
 
 Examples of custom pipeline configurations:
 
@@ -79,8 +77,10 @@ Examples of custom pipeline configurations:
 | con | con | Cube_**con** / Cube_con_**con** |
 | CTL | SHP | Cube_**CTL** / Cube_CTL_**SHP** |
 
-> 💡 Auto Save — Suffix settings are saved on close and restored on next launch. No need to reconfigure each session.
+> <small>💡 Auto Save — Suffix settings are saved on close and restored on next launch. No need to reconfigure each session.</small>
 > 
+
+<br>
 
 # **🔴 Create Controller**
 

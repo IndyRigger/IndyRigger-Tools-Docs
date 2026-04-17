@@ -8,17 +8,16 @@
 Documentation for installation and usage of IndyRigger Maya tools.  
 See the sections below for details.
 
+<br>
 
 ## Tools Documentation
-Installation and usage guide
 
-### [IDR ControllerTools v2026.1](./IDR-ControllerTools/index.md)
-### [IDR RenameTools v2026.1](./IDR-RenameTools/index.md)
-### [IDR SmartJoint v2026.1](./IDR-SmartJoint/index.md)
-### [IDR CustomColor v2026.1](./IDR-CustomColor/index.md)
+### [📄 IDR ControllerTools v2026.1](./IDR-ControllerTools/CTL-docs.md)
+### [📄 IDR RenameTools v2026.1](./IDR-RenameTools/index.md)
+### [📄 IDR SmartJoint v2026.1](./IDR-SmartJoint/index.md)
+### [📄 IDR CustomColor v2026.1](./IDR-CustomColor/index.md)
 
-
----
+<br>
 
 ## Support
 
@@ -26,17 +25,19 @@ If you find these tools useful, you can support ongoing development:
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-orange?style=for-the-badge&logo=buy-me-a-coffee)](YOUR_BUY_ME_A_COFFEE_URL)
 
----
+<br>
 
 ## License
 
-Licensed under  
-**Creative Commons Attribution-NonCommercial 4.0 International**
+This project is licensed under the  
+**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 
-Commercial use is not permitted without permission.
+You are free to use, share, and modify the content for non-commercial purposes,  
+with proper attribution. Commercial use requires prior permission.
 
----
+<br>
+
 
 <p align="center">
-© 2026 Indy Rigger • Some rights reserved.
+© 2026 Indy Rigger 🇹🇭 • Some rights reserved.
 </p>
