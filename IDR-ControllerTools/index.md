@@ -32,8 +32,7 @@ A tool for creating and managing rigging controllers (NURBS curves) in Maya, sim
 4. Drag **install.mel** into the Viewport
 5. Shelf button is created automatically
 
-![*Dragging install.mel into Maya Viewport and the tool button appearing on the Shelf.*](./images/Install_File_00.gif)  
-*Dragging install.mel into Maya Viewport and the tool button appearing on the Shelf.*  
+![How to install IDR Maya Tools](../assets/images/IDR-maya-rig-tools-Install-File.gif)
 
 <br>
 
