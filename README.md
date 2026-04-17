@@ -18,23 +18,25 @@ See the sections below for details.
 ### [📄 IDR CustomColor v2026.1](./IDR-CustomColor/index.md)
 
 <br>
-
----
+<br>
 
 ## Get the Tools
 Visit the official store for advanced scripts and premium rigging assets.
+
 [![Gumroad](https://img.shields.io/badge/Gumroad-IndyRigger-black?style=flat-square&logo=gumroad)](https://indyrigger.gumroad.com/)
 
 <br>
 
 ## Support This Project
 If you find these tools helpful, consider supporting further development.
+
 [![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange?style=flat-square&logo=buy-me-a-coffee)](https://buymeacoffee.com/indyrigger)
 
 <br>
 
 ## Connect & Contact
 Follow for the latest updates, tutorials, and more rigging content.
+
 [![Facebook](https://img.shields.io/badge/Facebook-IndyRigger-blue?style=flat-square&logo=facebook)](https://www.facebook.com/indyrigger) [![YouTube](https://img.shields.io/badge/YouTube-IndyRigger-red?style=flat-square&logo=youtube)](https://www.youtube.com/indyrigger) [![Email](https://img.shields.io/badge/Email-rigger.indy@gmail.com-white?style=flat-square&logo=gmail)](mailto:rigger.indy@gmail.com)
 
 
