@@ -1,0 +1,251 @@
+# IDR ControllerTools v2026.1
+
+---
+
+# **Tool Overview**
+
+![   *UI Overview*](../../assets/images/IDR-ControllerTools/CTL_ControllerCreation_01.gif)
+
+   *UI Overview*
+
+A tool for creating and managing rigging controllers (NURBS curves) in Maya, simplifying complex tasks into a few clicks.
+
+
+
+---
+
+# **🔴 Suffix Settings**
+
+💡 Before starting, configure the Curve and Shape suffixes to match your pipeline naming. This helps ensure all created nodes follow a consistent standard and integrate smoothly with your team’s workflow.
+
+![*Enter suffixes for Curve and Shape. Created nodes will follow these names.*](../../assets/images/IDR-ControllerTools/CTL_ControllerCreation_03.gif)
+
+*Enter suffixes for Curve and Shape. Created nodes will follow these names.*
+
+Examples of custom pipeline configurations:
+
+| Curve | Shape | Result |
+| --- | --- | --- |
+| CTRL | Shape | Cube_**CTRL** / Cube_CTRL_**Shape** |
+| con | con | Cube_**con** / Cube_con_**con** |
+| CTL | SHP | Cube_**CTL** / Cube_CTL_**SHP** |
+
+> 💡 Auto Save — Suffix settings are saved on close and restored on next launch. No need to reconfigure each session.
+> 
+
+# **🔴 Create Controller**
+
+## 69 Preset Controller
+
+![***Left-click**: Create instantly
+**Right-click**: Rotate 90° (X / Y / Z)*](../../assets/images/IDR-ControllerTools/CTL_ControllerCreation_02.gif)
+
+***Left-click**: Create instantly
+**Right-click**: Rotate 90° (X / Y / Z)*
+
+Create NURBS controllers from 69 preset shapes—just click an icon.
+
+- **Left-click**: Creates the controller in the default orientation.
+- **Right-click**: Rotate 90° (X / Y / Z)
+
+## Your Controller
+
+![*Draw → Select → Click empty slot → Name → Save.*](../../assets/images/IDR-ControllerTools/CTL_YourController_01.gif)
+
+*Draw → Select → Click empty slot → Name → Save.*
+
+Save custom shapes to 18 slots for quick reuse.
+
+- **Save**: Create → Select → Click (+) → Name
+    
+    > ⚠️ Single-shape only
+    > 
+- **Create**: Click slot (uses Suffix Settings)
+- **Manage**: Right-click → Rename / Remove / Remove All
+- **Auto Save**: Saved & restored automatically
+File: `resources/presets/your_controllers.json`
+    
+    > 💡 Share the JSON for team use
+    > 
+
+## **Text Curve**
+
+![*Type text → choose font (right-click) → generate NURBS curve.*](../../assets/images/IDR-ControllerTools/CTL_TextCurve.gif)
+
+*Type text → choose font (right-click) → generate NURBS curve.*
+
+Create NURBS curves from text (useful for labels/controllers).
+
+- Type text → choose font (right-click) → create
+
+> 
+> 
+> 
+> ⚠️ Unsupported fonts reset to default with a warning.
+> 💡 Font auto-saves; shape names follow suffix
+> 
+
+## **Cloning Controller**
+
+![*Draw → Select → Choose MEL/Python → Set Precision → Click Get Script.*](../../assets/images/IDR-ControllerTools/CTL_CloningController_01.gif)
+
+*Draw → Select → Choose MEL/Python → Set Precision → Click Get Script.*
+
+Convert NURBS curves to MEL/Python code with adjustable precision.
+
+- **Curve to Script**: Extract from selected curve (set language & precision)
+- **Create From Code**: Paste code to recreate
+
+💡 Higher precision = more accurate; lower = shorter code
+
+## **Cloning Controller and** Your Controller
+
+**Cloning Controller** reuses shapes like Your Controller, but exports them as code for flexible storage, scripting, or sharing.
+
+# 🔴 Group Object
+
+![  *•*  Auto: adds groups on create.
+  •  Manual: group selected anytime.
+  •  Set group layers with comma-separated names.](../../assets/images/IDR-ControllerTools/CTL_GroupObject.gif)
+
+  *•*  Auto: adds groups on create.
+  •  Manual: group selected anytime.
+  •  Set group layers with comma-separated names.
+
+Creates nested offset groups above the selected object.
+
+- **Auto**: Adds groups on controller creation
+- **Manual**: Click **Group** to add on selected
+- **Group Names**: Use comma-separated suffixes (e.g., offset,sets,extra) to define layers/order
+- Right-click to reset to default
+
+**Example:** `offset,sets,extra1,extra2,extra3` 
+Creates nested groups (outer → inner):
+
+**Cube_offset 
+   └─ Cube_sets 
+             └─ Cube_extra1 
+                       └─ Cube_extra2 
+                                 └─ Cube_extra3
+                                           └─ Cube_CTL**
+
+# 🔴 Edit Controller
+
+Edit controller shape without affecting transforms. Right-click to choose mode.
+
+## **Edit with Indy Locator**
+
+Adds a red locator to edit controller CVs by dragging (supports multi-shape).
+
+> ⚠️ Use **Delete "editCTL_GRP"** to finish—don’t delete it manually.
+> 
+> 
+> 💡 Button auto-activates when detected.
+> 
+
+![*Right-click → Edit with Indy Locator → Click → Drag to edit CVs → Delete "editCTL_GRP"* ](../../assets/images/IDR-ControllerTools/CTL_EditCtrl_IndyLocator.gif)
+
+*Right-click → Edit with Indy Locator → Click → Drag to edit CVs → Delete "editCTL_GRP"* 
+
+## **Scale Shape**
+
+Scale CVs without affecting transforms. Enter value or middle-drag (min: 1.0).
+
+![*Right-click → Scale Shape → enter value or middle-drag to scale.*](../../assets/images/IDR-ControllerTools/CTL_EditCtrl_ScaleShape.gif)
+
+*Right-click → Scale Shape → enter value or middle-drag to scale.*
+
+## **Select CV**
+
+Select all CVs in one click for easy editing.
+
+![*Right-click → Select CV → Click to select all CVs.*](../../assets/images/IDR-ControllerTools/CTL_EditCtrl_SelectCV.gif)
+
+*Right-click → Select CV → Click to select all CVs.*
+
+## **Change Shape**
+
+Replace a controller’s shape using another (select source → target last).
+
+> 💡 Commonly used for controllers with existing connections.
+> 
+
+![CTL_EditCtrl_Change.gif](../../assets/images/IDR-ControllerTools/CTL_EditCtrl_Change.gif)
+
+## **Combine / Uncombine Curves**
+
+Merge or split curves (parenting shapes). CVs keep world positions; shapes follow the same suffix naming.
+
+![CTL_EditCtrl_Combine.gif](../../assets/images/IDR-ControllerTools/CTL_EditCtrl_Combine.gif)
+
+## **Curve Width**
+
+Adjust curve thickness via slider or input. 
+Middle-drag to scrub, Ctrl+drag for fine control, right-click to reset.
+
+![CTL_EditCtrl_CurveWidth.gif](../../assets/images/IDR-ControllerTools/CTL_EditCtrl_CurveWidth.gif)
+
+## **Average Distribute**
+
+Evenly distributes attributes between the first and last selected objects (supports Translate / Rotate / Scale per axis or XYZ).
+
+![CTL_EditCtrl_Average.gif](../../assets/images/IDR-ControllerTools/CTL_EditCtrl_Average.gif)
+
+# 🔴 **Troubleshooting**
+
+- **Shelf Button not working**: Ensure the folder is in the correct path and named properly. Restart Maya and recreate the shelf if needed.
+- **Font issues**: Only system-supported fonts work in Maya. Unsupported fonts fallback to default (Arial) with a warning. Use fonts with full glyph support (e.g., Thai fonts).
+- **Missing icons**: Check `resources/icons/` path and ensure all icons are `.png` with correct naming. New icons load on next launch.
+- **Controller not visible**: Enable *Show > NURBS Curves* in the viewport.
+- **UI freeze/unresponsive**: Run `IDR_ControllerTools.show()` again to reset the UI.
+
+# 🔴 **Terminology**
+
+- **Offset Group**: Parent group used to zero transforms for easy reset.
+- **CV (Control Vertex)**: Points that define the curve shape.
+- **Suffix**: Naming convention tag (e.g., _CTL, _SHP, _GRP).
+- **Shape Node**: Stores actual curve data under a transform.
+- **Freeze Transform**: Reset TRS to default without moving the object.
+- **World Space**: Global coordinate system used for consistent positioning.
+
+---
+
+# **Contact**
+
+- Facebook: [https://www.facebook.com/indyrigger](https://www.facebook.com/indyrigger)
+- Email: rigger.indy@gmail.com
+
+---
+
+# **More Content**
+
+Follow for more tools and content:
+
+- Gumroad: [https://indyrigger.gumroad.com/](https://indyrigger.gumroad.com/)
+- YouTube: [https://www.youtube.com/indyrigger](https://www.youtube.com/indyrigger)
+
+---
+
+# **Support This Project**
+
+Thank you for your support and for being part of this journey.
+
+If you find this tool helpful, you can support further development here:
+
+🔗 [https://buymeacoffee.com/indyrigger](https://buymeacoffee.com/indyrigger)
+
+---
+
+## **INDY RIGGER**
+Rig · Tools · Share
+🇹🇭
+
+🔴 เครื่องมือตัวนี้ผมตั้งใจทำและปล่อยให้ โหลดไปใช้กันได้ฟรีๆ ครับ เพราะอยากซัพพอร์ตน้องๆ นักเรียน หรือ Rigger มือใหม่ที่กำลังเริ่มหัดริก แต่อาจจะยังไม่มีงบซื้อเครื่องมือแพงๆ ผมอยากให้ทุกคนมีของดีไว้ใช้ฝึกฝนและอัปสกิลตัวเองกันให้เต็มที่
+
+หวังว่า IDR Tools จะช่วยให้เส้นทางสาย Rigger ของทุกคนไปได้ไกลขึ้นนะครับ... วันไหนที่เก่งแล้ว ประสบความสำเร็จแล้ว จะกลับมาช่วยพัฒนา หรือสนับสนุนโปรเจกต์นี้ในรูปแบบไหน ผมก็ยินดีและขอบคุณมากๆ ครับ
+
+… 
+
+🔴 I created this tool and made it freely available for download because I want to support students and beginner riggers who are just starting out but may not have the budget for expensive tools. I hope everyone can have access to good resources to practice and fully develop their skills.
+
+I truly hope that IDR Tools can help you go further on your journey as a rigger. And one day, when you’ve grown and found success, if you choose to come back and contribute to the development or support this project in any way, I would deeply appreciate it.
