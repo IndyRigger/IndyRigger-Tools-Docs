@@ -1,28 +1,21 @@
 # IndyRigger Tools Documentation
 
-Documentation for installation and usage of IndyRigger Maya tools.  
-See the sections below for details.
-
-  <img src="https://img.shields.io/badge/Maya-2022--2025-blue?style=flat-square&logo=autodesk" />
-  <img src="https://img.shields.io/badge/Python-3.7+-yellow?style=flat-square&logo=python" />
-  <img src="https://img.shields.io/badge/OS-Windows%20%7C%20macOS-brightgreen?style=flat-square" />
-  <a href="https://creativecommons.org/licenses/by-nc/4.0/">
-    <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square" />
-  </a>
-
-
+![Maya](https://img.shields.io/badge/Maya-2022%20--%202025-blue?style=flat-square&logo=autodesk) ![Python](https://img.shields.io/badge/Python-3.7%2B-yellow?style=flat-square&logo=python) ![OS](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen?style=flat-square) [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ![IndyRigger Maya Rigging Tools](./assets/images/IDR-maya-rig-tools-IndyRigger-Tools.gif)
 
----
+
+Documentation for installation and usage of IndyRigger Maya tools.  
+See the sections below for details.
+
 
 ## Tools Documentation
 Installation and usage guide
 
-### 🎮 [IDR ControllerTools v2026.1](./IDR-ControllerTools/)
-### 📝 [IDR RenameTools v2026.1](./IDR-RenameTools/)
-### 🦴 [IDR SmartJoint v2026.1](./IDR-SmartJoint/)
-### 🎨 [IDR CustomColor v2026.1](./IDR-CustomColor/)
+### [IDR ControllerTools v2026.1](./IDR-ControllerTools/index.md)
+### [IDR RenameTools v2026.1](./IDR-RenameTools/index.md)
+### [IDR SmartJoint v2026.1](./IDR-SmartJoint/index.md)
+### [IDR CustomColor v2026.1](./IDR-CustomColor/index.md)
 
 
 ---

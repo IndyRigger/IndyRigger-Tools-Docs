@@ -4,7 +4,6 @@
 <br>
 
 ![UI Overview](./images/CTL_ControllerCreation_01.gif)  
-*UI Overview*
 
 A tool for creating and managing rigging controllers (NURBS curves) in Maya, simplifying complex tasks into a few clicks.
 
