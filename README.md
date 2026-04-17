@@ -13,9 +13,9 @@ See the sections below for details.
 ## Tools Documentation
 
 ### [📄 IDR ControllerTools v2026.1](./IDR-ControllerTools/CTL-docs.md)
-### [📄 IDR RenameTools v2026.1](./IDR-RenameTools/index.md)
-### [📄 IDR SmartJoint v2026.1](./IDR-SmartJoint/index.md)
-### [📄 IDR CustomColor v2026.1](./IDR-CustomColor/index.md)
+### [📄 IDR RenameTools v2026.1](./IDR-RenameTools/RNT-docs.md)
+### [📄 IDR SmartJoint v2026.1](./IDR-SmartJoint/SMJ-docs.md)
+### [📄 IDR CustomColor v2026.1](./IDR-CustomColor/CLR-docs.md)
 
 <br>
 <br>

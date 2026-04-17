@@ -124,14 +124,14 @@ File: `resources/presets/your_controllers.json`
 Create NURBS curves from text (useful for labels/controllers).
 
 - Type text → choose font (right-click) → create
-- 
 
 > <small>⚠️ Unsupported fonts reset to default with a warning.
 > 💡 Font auto-saves; shape names follow suffix </small>
+> 
 
 <br>
 
-## **Cloning Controller**
+## Cloning Controller
 
 ![*Draw → Select → Choose MEL/Python → Set Precision → Click Get Script.*](./images/CTL_CloningController_01.gif)
 
@@ -188,8 +188,9 @@ Edit controller shape without affecting transforms. Right-click to choose mode.
 
 Adds a red locator to edit controller CVs by dragging (supports multi-shape).
 
-> ⚠️ Use **Delete "editCTL_GRP"** to finish—don’t delete it manually.
-> 💡 Button auto-activates when detected.
+> <small>⚠️ Use **Delete "editCTL_GRP"** to finish—don’t delete it manually.
+> 💡 Button auto-activates when detected.</small>
+> 
 
 ![*Right-click → Edit with Indy Locator → Click → Drag to edit CVs → Delete "editCTL_GRP"* ](./images/CTL_EditCtrl_IndyLocator.gif)
 
@@ -215,7 +216,7 @@ Select all CVs in one click for easy editing.
 
 Replace a controller’s shape using another (select source → target last).
 
-> 💡 Commonly used for controllers with existing connections.
+> <small>💡 Commonly used for controllers with existing connections.</small>
 
 ![CTL_EditCtrl_Change.gif](./images/CTL_EditCtrl_Change.gif)
 
