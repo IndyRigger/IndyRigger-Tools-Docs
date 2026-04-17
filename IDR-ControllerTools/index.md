@@ -1,23 +1,30 @@
 # IDR ControllerTools v2026.1
+![Maya](https://img.shields.io/badge/Maya-2022%20--%202025-blue?style=flat-square&logo=autodesk) ![Python](https://img.shields.io/badge/Python-3.7%2B-yellow?style=flat-square&logo=python) ![OS](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen?style=flat-square) [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+<br>
 
 ![UI Overview](./images/CTL_ControllerCreation_01.gif)  
 *UI Overview*
 
 A tool for creating and managing rigging controllers (NURBS curves) in Maya, simplifying complex tasks into a few clicks.
+
 <br>
 
+## Requirements
 
-# Technical Specifications
-
-| Maya Version : | 2022+ |
+| Category | Specification |
 | :--- | :--- |
-| **Language :** | Python <br> PySide2 (Maya 2022–2024) <br> PySide6 (Maya 2025+) |
-| **OS :** | Windows · macOS · Linux |
-| **License :** | [CC BY-NC 4.0 — Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/) <br> Personal use only / Shareable / No commercial use allowed |
+| **Maya Version** | 2022, 2023, 2024, 2025+ |
+| **Language** | Python 3.7+ |
+| **UI Framework** | PySide2 (2022-2024), PySide6 (2025+) |
+| **OS Support** | Windows, macOS, Linux |
+| **License** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
 
-# Installation
+<br>
 
-## ◽ Method 1: Drag & Drop (Recommended)
+## Installation
+
+**Method 1: Drag & Drop (Recommended)**
 
 1. Unzip the package
 2. Place the folder (e.g., *Documents/maya/scripts*)
@@ -26,10 +33,11 @@ A tool for creating and managing rigging controllers (NURBS curves) in Maya, sim
 5. Shelf button is created automatically
 
 ![*Dragging install.mel into Maya Viewport and the tool button appearing on the Shelf.*](./images/Install_File_00.gif)  
-*Dragging install.mel into Maya Viewport and the tool button appearing on the Shelf.*
+*Dragging install.mel into Maya Viewport and the tool button appearing on the Shelf.*  
 
-## ◽ Method 2: Manual Install
+<br>
 
+**Method 2: Manual Install**
 Windows · macOS · Linux
 
 1. Copy folder to: *~/maya/scripts/IDR_ControllerTools_v2026.1*
