@@ -19,25 +19,28 @@ See the sections below for details.
 
 <br>
 
-## Support
+---
 
-If you find these tools useful, you can support ongoing development:
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-orange?style=for-the-badge&logo=buy-me-a-coffee)](YOUR_BUY_ME_A_COFFEE_URL)
-
-<br>
-
-## License
-
-This project is licensed under the  
-**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
-
-You are free to use, share, and modify the content for non-commercial purposes,  
-with proper attribution. Commercial use requires prior permission.
+## Get the Tools
+Visit the official store for advanced scripts and premium rigging assets.
+[![Gumroad](https://img.shields.io/badge/Gumroad-IndyRigger-black?style=flat-square&logo=gumroad)](https://indyrigger.gumroad.com/)
 
 <br>
 
+## Support This Project
+If you find these tools helpful, consider supporting further development.
+[![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange?style=flat-square&logo=buy-me-a-coffee)](https://buymeacoffee.com/indyrigger)
+
+<br>
+
+## Connect & Contact
+Follow for the latest updates, tutorials, and more rigging content.
+[![Facebook](https://img.shields.io/badge/Facebook-IndyRigger-blue?style=flat-square&logo=facebook)](https://www.facebook.com/indyrigger) [![YouTube](https://img.shields.io/badge/YouTube-IndyRigger-red?style=flat-square&logo=youtube)](https://www.youtube.com/indyrigger) [![Email](https://img.shields.io/badge/Email-rigger.indy@gmail.com-white?style=flat-square&logo=gmail)](mailto:rigger.indy@gmail.com)
+
+
+<br>
+<br>
 
 <p align="center">
-© 2026 Indy Rigger 🇹🇭 • Some rights reserved.
+© 2026 Indy Rigger • Some rights reserved.
 </p>

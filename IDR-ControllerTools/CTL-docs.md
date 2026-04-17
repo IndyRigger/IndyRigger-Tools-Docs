@@ -62,6 +62,7 @@ IDR_ControllerTools.show()
 ```
 
 <br>
+<br>
 
 # **🔴 Suffix Settings**
 
@@ -78,8 +79,8 @@ Examples of custom pipeline configurations:
 | CTL | SHP | Cube_**CTL** / Cube_CTL_**SHP** |
 
 > <small>💡 Auto Save — Suffix settings are saved on close and restored on next launch. No need to reconfigure each session.</small>
-> 
 
+<br>
 <br>
 
 # **🔴 Create Controller**
@@ -89,67 +90,66 @@ Examples of custom pipeline configurations:
 ![***Left-click**: Create instantly
 **Right-click**: Rotate 90° (X / Y / Z)*](./images/CTL_ControllerCreation_02.gif)
 
-***Left-click**: Create instantly
-**Right-click**: Rotate 90° (X / Y / Z)*
 
 Create NURBS controllers from 69 preset shapes—just click an icon.
 
 - **Left-click**: Creates the controller in the default orientation.
 - **Right-click**: Rotate 90° (X / Y / Z)
 
+<br>
+
 ## Your Controller
 
 ![*Draw → Select → Click empty slot → Name → Save.*](./images/CTL_YourController_01.gif)
-
-*Draw → Select → Click empty slot → Name → Save.*
 
 Save custom shapes to 18 slots for quick reuse.
 
 - **Save**: Create → Select → Click (+) → Name
     
-    > ⚠️ Single-shape only
-    > 
+    > <small>⚠️ Single-shape only</small>
+
 - **Create**: Click slot (uses Suffix Settings)
 - **Manage**: Right-click → Rename / Remove / Remove All
 - **Auto Save**: Saved & restored automatically
 File: `resources/presets/your_controllers.json`
     
-    > 💡 Share the JSON for team use
-    > 
+    > <small>💡 Share the JSON for team use </small>
 
-## **Text Curve**
+<br>
+
+## Text Curve
 
 ![*Type text → choose font (right-click) → generate NURBS curve.*](./images/CTL_TextCurve.gif)
-
-*Type text → choose font (right-click) → generate NURBS curve.*
 
 Create NURBS curves from text (useful for labels/controllers).
 
 - Type text → choose font (right-click) → create
+- 
 
-> 
-> 
-> 
-> ⚠️ Unsupported fonts reset to default with a warning.
-> 💡 Font auto-saves; shape names follow suffix
-> 
+> <small>⚠️ Unsupported fonts reset to default with a warning.
+> 💡 Font auto-saves; shape names follow suffix </small>
+
+<br>
 
 ## **Cloning Controller**
 
 ![*Draw → Select → Choose MEL/Python → Set Precision → Click Get Script.*](./images/CTL_CloningController_01.gif)
-
-*Draw → Select → Choose MEL/Python → Set Precision → Click Get Script.*
 
 Convert NURBS curves to MEL/Python code with adjustable precision.
 
 - **Curve to Script**: Extract from selected curve (set language & precision)
 - **Create From Code**: Paste code to recreate
 
-💡 Higher precision = more accurate; lower = shorter code
+> <small>💡 Higher precision = more accurate; lower = shorter code</small>
 
-## **Cloning Controller and** Your Controller
+<br>
+
+## Cloning Controller and Your Controller
 
 **Cloning Controller** reuses shapes like Your Controller, but exports them as code for flexible storage, scripting, or sharing.
+
+<br>
+<br>
 
 # 🔴 Group Object
 
@@ -157,90 +157,98 @@ Convert NURBS curves to MEL/Python code with adjustable precision.
   •  Manual: group selected anytime.
   •  Set group layers with comma-separated names.](./images/CTL_GroupObject.gif)
 
-  *•*  Auto: adds groups on create.
-  •  Manual: group selected anytime.
-  •  Set group layers with comma-separated names.
 
 Creates nested offset groups above the selected object.
 
 - **Auto**: Adds groups on controller creation
 - **Manual**: Click **Group** to add on selected
 - **Group Names**: Use comma-separated suffixes (e.g., offset,sets,extra) to define layers/order
-- Right-click to reset to default
+- **Right-click** to reset to default
 
 **Example:** `offset,sets,extra1,extra2,extra3` 
 Creates nested groups (outer → inner):
 
-**Cube_offset 
-   └─ Cube_sets 
-             └─ Cube_extra1 
-                       └─ Cube_extra2 
-                                 └─ Cube_extra3
-                                           └─ Cube_CTL**
+```text
+Cube_offset
+└── Cube_sets
+    └── Cube_extra1
+        └── Cube_extra2
+            └── Cube_extra3
+                └── Cube_CTL
+```
+
+<br>
+<br>
 
 # 🔴 Edit Controller
 
 Edit controller shape without affecting transforms. Right-click to choose mode.
 
-## **Edit with Indy Locator**
+## Edit with Indy Locator
 
 Adds a red locator to edit controller CVs by dragging (supports multi-shape).
 
 > ⚠️ Use **Delete "editCTL_GRP"** to finish—don’t delete it manually.
-> 
-> 
 > 💡 Button auto-activates when detected.
-> 
 
 ![*Right-click → Edit with Indy Locator → Click → Drag to edit CVs → Delete "editCTL_GRP"* ](./images/CTL_EditCtrl_IndyLocator.gif)
 
-*Right-click → Edit with Indy Locator → Click → Drag to edit CVs → Delete "editCTL_GRP"* 
+<br>
 
-## **Scale Shape**
+## Scale Shape
 
 Scale CVs without affecting transforms. Enter value or middle-drag (min: 1.0).
 
 ![*Right-click → Scale Shape → enter value or middle-drag to scale.*](./images/CTL_EditCtrl_ScaleShape.gif)
 
-*Right-click → Scale Shape → enter value or middle-drag to scale.*
+<br>
 
-## **Select CV**
+## Select CV
 
 Select all CVs in one click for easy editing.
 
 ![*Right-click → Select CV → Click to select all CVs.*](./images/CTL_EditCtrl_SelectCV.gif)
 
-*Right-click → Select CV → Click to select all CVs.*
+<br>
 
-## **Change Shape**
+## Change Shape
 
 Replace a controller’s shape using another (select source → target last).
 
 > 💡 Commonly used for controllers with existing connections.
-> 
 
 ![CTL_EditCtrl_Change.gif](./images/CTL_EditCtrl_Change.gif)
 
-## **Combine / Uncombine Curves**
+<br>
+
+## Combine / Uncombine Curves
 
 Merge or split curves (parenting shapes). CVs keep world positions; shapes follow the same suffix naming.
 
 ![CTL_EditCtrl_Combine.gif](./images/CTL_EditCtrl_Combine.gif)
 
-## **Curve Width**
+<br>
+
+## Curve Width
 
 Adjust curve thickness via slider or input. 
 Middle-drag to scrub, Ctrl+drag for fine control, right-click to reset.
 
 ![CTL_EditCtrl_CurveWidth.gif](./images/CTL_EditCtrl_CurveWidth.gif)
 
-## **Average Distribute**
+<br>
+
+## Average Distribute
 
 Evenly distributes attributes between the first and last selected objects (supports Translate / Rotate / Scale per axis or XYZ).
 
 ![CTL_EditCtrl_Average.gif](./images/CTL_EditCtrl_Average.gif)
 
-# 🔴 **Troubleshooting**
+<br>
+
+---
+
+# 🔴 Troubleshooting
 
 - **Shelf Button not working**: Ensure the folder is in the correct path and named properly. Restart Maya and recreate the shelf if needed.
 - **Font issues**: Only system-supported fonts work in Maya. Unsupported fonts fallback to default (Arial) with a warning. Use fonts with full glyph support (e.g., Thai fonts).
@@ -248,7 +256,9 @@ Evenly distributes attributes between the first and last selected objects (suppo
 - **Controller not visible**: Enable *Show > NURBS Curves* in the viewport.
 - **UI freeze/unresponsive**: Run `IDR_ControllerTools.show()` again to reset the UI.
 
-# 🔴 **Terminology**
+<br>
+
+# 🔴 Terminology
 
 - **Offset Group**: Parent group used to zero transforms for easy reset.
 - **CV (Control Vertex)**: Points that define the curve shape.
@@ -259,42 +269,26 @@ Evenly distributes attributes between the first and last selected objects (suppo
 
 ---
 
-# **Contact**
+## Get the Tools
+Visit the official store for advanced scripts and premium rigging assets.
+[![Gumroad](https://img.shields.io/badge/Gumroad-IndyRigger-black?style=flat-square&logo=gumroad)](https://indyrigger.gumroad.com/)
 
-- Facebook: [https://www.facebook.com/indyrigger](https://www.facebook.com/indyrigger)
-- Email: rigger.indy@gmail.com
+<br>
 
----
+## Support This Project
+If you find these tools helpful, consider supporting further development.
+[![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange?style=flat-square&logo=buy-me-a-coffee)](https://buymeacoffee.com/indyrigger)
 
-# **More Content**
+<br>
 
-Follow for more tools and content:
+## Connect & Contact
+Follow for the latest updates, tutorials, and more rigging content.
+[![Facebook](https://img.shields.io/badge/Facebook-IndyRigger-blue?style=flat-square&logo=facebook)](https://www.facebook.com/indyrigger) [![YouTube](https://img.shields.io/badge/YouTube-IndyRigger-red?style=flat-square&logo=youtube)](https://www.youtube.com/indyrigger) [![Email](https://img.shields.io/badge/Email-rigger.indy@gmail.com-white?style=flat-square&logo=gmail)](mailto:rigger.indy@gmail.com)
 
-- Gumroad: [https://indyrigger.gumroad.com/](https://indyrigger.gumroad.com/)
-- YouTube: [https://www.youtube.com/indyrigger](https://www.youtube.com/indyrigger)
 
----
+<br>
+<br>
 
-# **Support This Project**
-
-Thank you for your support and for being part of this journey.
-
-If you find this tool helpful, you can support further development here:
-
-🔗 [https://buymeacoffee.com/indyrigger](https://buymeacoffee.com/indyrigger)
-
----
-
-## **INDY RIGGER**
-Rig · Tools · Share
-🇹🇭
-
-🔴 เครื่องมือตัวนี้ผมตั้งใจทำและปล่อยให้ โหลดไปใช้กันได้ฟรีๆ ครับ เพราะอยากซัพพอร์ตน้องๆ นักเรียน หรือ Rigger มือใหม่ที่กำลังเริ่มหัดริก แต่อาจจะยังไม่มีงบซื้อเครื่องมือแพงๆ ผมอยากให้ทุกคนมีของดีไว้ใช้ฝึกฝนและอัปสกิลตัวเองกันให้เต็มที่
-
-หวังว่า IDR Tools จะช่วยให้เส้นทางสาย Rigger ของทุกคนไปได้ไกลขึ้นนะครับ... วันไหนที่เก่งแล้ว ประสบความสำเร็จแล้ว จะกลับมาช่วยพัฒนา หรือสนับสนุนโปรเจกต์นี้ในรูปแบบไหน ผมก็ยินดีและขอบคุณมากๆ ครับ
-
-… 
-
-🔴 I created this tool and made it freely available for download because I want to support students and beginner riggers who are just starting out but may not have the budget for expensive tools. I hope everyone can have access to good resources to practice and fully develop their skills.
-
-I truly hope that IDR Tools can help you go further on your journey as a rigger. And one day, when you’ve grown and found success, if you choose to come back and contribute to the development or support this project in any way, I would deeply appreciate it.
+<p align="center">
+© 2026 Indy Rigger • Some rights reserved.
+</p>
