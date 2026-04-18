@@ -5,9 +5,7 @@
 
 ![UI Overview](./images/RNT_UI_Overview.gif)
 
-A comprehensive naming management tool for Autodesk Maya. Designed for riggers and TDs — batch rename, prefix/suffix, search & replace, regex support, custom type tags, and full undo, all from a single window.
-
-Supports renaming across all node types (DAG + DG), allowing full-scene naming control in one workflow.
+A powerful toolkit for fast and efficient naming in Autodesk Maya. Built for riggers and TDs, IDR RenameTools provides full-scene control across all DAG and DG nodes—featuring batch renaming, regex support, and custom tags in one streamlined, undo-friendly window.
 
 > <small>💡 Switch between Page 1 (Rename Operation) and Page 2 (Type Setting) using the buttons at the bottom of the window.</small>
 

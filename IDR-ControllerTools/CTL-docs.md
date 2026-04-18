@@ -5,7 +5,7 @@
 
 ![UI Overview](./images/CTL_ControllerCreation_01.gif)  
 
-A tool for creating and managing rigging controllers (NURBS curves) in Maya, simplifying complex tasks into a few clicks.
+A powerful toolkit for creating, editing, and managing rigging controllers (NURBS curves) in Autodesk Maya. Designed to streamline repetitive tasks and speed up your rigging workflow, this tool lets you perform complex operations with just a few clicks.
 
 <br>
 

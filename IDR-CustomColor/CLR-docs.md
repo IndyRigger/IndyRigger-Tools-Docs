@@ -5,7 +5,7 @@
 
 ![UI Overview](./images/CLR_UI_Overview.gif)
 
-A color management tool for Autodesk Maya, designed to help Riggers and Animators assign colors quickly, accurately, and consistently.
+A powerful toolkit for fast, consistent coloring in Maya. Includes 115 preset colors (Index & ACES) with accurate viewport matching, plus HEX/RGB/HSV/ACEScg input and Eyedropper. Random, Rainbow, Fade, Blend, and 12 Favorites enable quick multi-object coloring.
 
 <br>
 
