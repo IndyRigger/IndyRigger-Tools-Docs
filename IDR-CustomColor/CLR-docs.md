@@ -3,7 +3,9 @@
 
 <br>
 
-![UI Overview](./images/CLR_UI_Overview.gif)
+<p align="center">
+  <img src="./images/CLR_UI_Overview.gif" alt="UI Overview">
+</p>
 
 A powerful toolkit for fast, consistent coloring in Maya. Includes 115 preset colors (Index & ACES) with accurate viewport matching, plus HEX/RGB/HSV/ACEScg input and Eyedropper. Random, Rainbow, Fade, Blend, and 12 Favorites enable quick multi-object coloring.
 
@@ -31,7 +33,9 @@ A powerful toolkit for fast, consistent coloring in Maya. Includes 115 preset co
 4. Drag **install.mel** into the Viewport
 5. Shelf button is created automatically
 
-![How to install IDR Maya Tools](../assets/images/IDR-maya-rig-tools-Install-File.gif)
+<p align="center">
+  <img src="../assets/images/IDR-maya-rig-tools-Install-File.gif" alt="How to install IDR Maya Tools">
+</p>
 
 <br>
 
@@ -68,7 +72,9 @@ IDR_CustomColor.show()
 
 💡 Before starting, the tool includes 115 preset colors: 31 Maya Index Colors and 84 ACES colors. This ensures accurate viewport color matching across all modes.
 
-![*The current color mode is displayed on the right side of the input field.*](./images/CLR_ACES_Explan.gif)
+<p align="center">
+  <img src="./images/CLR_ACES_Explan.gif" alt="ACES Mode">
+</p>
 
 ## What is ACES?
 
@@ -84,7 +90,9 @@ The tool provides three color modes: **Index**, **ACES**, and **RGB**.
 
 ## 115 Preset Colors
 
-![*Select an object in Maya → Click a color button or press **Apply***](./images/CLR_115_Preset_Colors.gif)
+<p align="center">
+  <img src="./images/CLR_115_Preset_Colors.gif" alt="Preset Colors">
+</p>
 
 Browse and apply from 115 preset colors divided into:
 
@@ -96,7 +104,9 @@ Browse and apply from 115 preset colors divided into:
 
 ## Color Input
 
-![*Enter a color value → Right-click to switch mode (HEX / RGB / HSV / ACEScg) → Press Enter*](./images/CLR_Color_Input.gif)
+<p align="center">
+  <img src="./images/CLR_Color_Input.gif" alt="Color Input">
+</p>
 
 Enter the desired color value in HEX / RGB / HSV / ACEScg format.
 
@@ -108,7 +118,9 @@ Enter the desired color value in HEX / RGB / HSV / ACEScg format.
 
 ## Current Color
 
-![*Left-click the **Current Color** button to open the Maya Color Editor.*](./images/CLR_Current_Color.gif)
+<p align="center">
+  <img src="./images/CLR_Current_Color.gif" alt="Current Color">
+</p>
 
 Displays the active color. Left-click to open the Maya Color Editor and select additional colors.
 
@@ -117,7 +129,9 @@ Displays the active color. Left-click to open the Maya Color Editor and select a
 
 ## Brightness
 
-![*Set → Apply*](./images/CLR_Brightness.gif)
+<p align="center">
+  <img src="./images/CLR_Brightness.gif" alt="Brightness">
+</p>
 
 Adjust brightness before applying (no hue shift).
 
@@ -128,7 +142,9 @@ Adjust brightness before applying (no hue shift).
 
 ## Eyedropper
 
-![*Click → Hover to preview → Left-click to pick (Esc / right-click to cancel)*](./images/CLR_Eyedropper.gif)
+<p align="center">
+  <img src="./images/CLR_Eyedropper.gif" alt="Eyedropper">
+</p>
 
 Pick any color from anywhere on screen. Features an 11×11 zoom preview grid with HEX readout in the color bar.
 
@@ -139,7 +155,9 @@ Pick any color from anywhere on screen. Features an 11×11 zoom preview grid wit
 
 ## Favorite Presets
 
-![CLR_Favorite_Presets_01.gif](./images/CLR_Favorite_Presets_01.gif)
+<p align="center">
+  <img src="./images/CLR_Favorite_Presets_01.gif" alt="Favorites">
+</p>
 
 Store and reuse colors with 12 slots. Supports RGB, ACES, and Maya Index, with custom names and drag & drop.
 
@@ -170,7 +188,9 @@ In addition to personal slots, the tool includes 8 ready-made palette files cura
 | Toon – Sky | Sky and atmosphere tones |
 | zIDR Code | IDR internal color code set |
 
-![*Right-click a slot → **Load** to apply instantly.*](./images/CLR_Favorite_Presets_02.gif)
+<p align="center">
+  <img src="./images/CLR_Favorite_Presets_02.gif" alt="Load Palette">
+</p>
 
 > <small>💡 User-saved palettes appear automatically in the menu.</small>
 
@@ -179,7 +199,9 @@ In addition to personal slots, the tool includes 8 ready-made palette files cura
 
 ## Viewport & Outliner
 
-![CLR_ViewportOutliner.gif](./images/CLR_ViewportOutliner.gif)
+<p align="center">
+  <img src="./images/CLR_ViewportOutliner.gif" alt="Viewport & Outliner">
+</p>
 
 Choose whether color is applied to the Viewport (shape node), Outliner (transform node), or both.
 
@@ -192,7 +214,9 @@ Choose whether color is applied to the Viewport (shape node), Outliner (transfor
 
 ## Apply & Reset
 
-![*Select → Choose color → Click **Apply** · Select → Click **Reset***](./images/CLR_AppleReset.gif)
+<p align="center">
+  <img src="./images/CLR_AppleReset.gif" alt="Apply & Reset">
+</p>
 
 - **Apply**: Applies selected color to objects (Viewport / Outliner)
 - **Reset**: Restores color to default (disables override)
@@ -202,7 +226,9 @@ Choose whether color is applied to the Viewport (shape node), Outliner (transfor
 
 ## Random Color
 
-![*Select → Right-click Apply Button → Click **Random***](./images/CLR__Random_Color.gif)
+<p align="center">
+  <img src="./images/CLR__Random_Color.gif" alt="Random Color">
+</p>
 
 Assign random colors from 11 presets (no repeats if ≤11 objects).
 
@@ -213,7 +239,9 @@ Assign random colors from 11 presets (no repeats if ≤11 objects).
 
 ## Rainbow Color
 
-![*Select → Right-click Apply Button → Click **Rainbow***](./images/CLR__Rainbow_Color.gif)
+<p align="center">
+  <img src="./images/CLR__Rainbow_Color.gif" alt="Rainbow Color">
+</p>
 
 Distribute colors in sequence across objects.
 
@@ -224,7 +252,9 @@ Distribute colors in sequence across objects.
 
 ## Fade Dark / Light
 
-![*Select → Right-click Apply Button → Click **Fade Dark / Light***](./images/CLR_Fade_Dark_Light.gif)
+<p align="center">
+  <img src="./images/CLR_Fade_Dark_Light.gif" alt="Fade Color">
+</p>
 
 Fade color across selection (dark or light direction).
 
@@ -235,7 +265,9 @@ Fade color across selection (dark or light direction).
 
 ## Display Type
 
-![*Select → Right-click Apply Button → Display Type*](./images/CLR_Display_Type.gif)
+<p align="center">
+  <img src="./images/CLR_Display_Type.gif" alt="Display Type">
+</p>
 
 Set viewport display mode: **Normal / Template / Reference**
 
@@ -244,7 +276,9 @@ Set viewport display mode: **Normal / Template / Reference**
 
 ## Create Material
 
-![*Select → Choose color → **Create Material** → Pick shader*](./images/CLR_Create_Material.gif)
+<p align="center">
+  <img src="./images/CLR_Create_Material.gif" alt="Create Material">
+</p>
 
 Create and assign a material directly from the current color.
 

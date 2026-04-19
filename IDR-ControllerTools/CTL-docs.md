@@ -4,7 +4,7 @@
 <br>
 
 <p align="center">
-  <img src="./images/CTL_ControllerCreation_01.gif" width="80%" alt="UI Overview">
+  <img src="./images/CTL_ControllerCreation_01.gif" alt="UI Overview">
 </p>
 
 A powerful toolkit for creating, editing, and managing rigging controllers (NURBS curves) in Autodesk Maya. Designed to streamline repetitive tasks and speed up your rigging workflow, this tool lets you perform complex operations with just a few clicks.
@@ -34,7 +34,7 @@ A powerful toolkit for creating, editing, and managing rigging controllers (NURB
 5. Shelf button is created automatically
 
 <p align="center">
-  <img src="../assets/images/IDR-maya-rig-tools-Install-File.gif" width="80%" alt="How to install IDR Maya Tools">
+  <img src="../assets/images/IDR-maya-rig-tools-Install-File.gif" alt="How to install IDR Maya Tools">
 </p>
 
 <br>
@@ -73,7 +73,7 @@ IDR_ControllerTools.show()
 💡 Before starting, configure the Curve and Shape suffixes to match your pipeline naming. This helps ensure all created nodes follow a consistent standard and integrate smoothly with your team’s workflow.
 
 <p align="center">
-  <img src="./images/CTL_ControllerCreation_03.gif" width="80%" alt="Suffix Settings">
+  <img src="./images/CTL_ControllerCreation_03.gif" alt="Suffix Settings">
 </p>
 
 Examples of custom pipeline configurations:
@@ -93,7 +93,7 @@ Examples of custom pipeline configurations:
 ## 69 Preset Controller
 
 <p align="center">
-  <img src="./images/CTL_ControllerCreation_02.gif" width="80%" alt="Preset Controller">
+  <img src="./images/CTL_ControllerCreation_02.gif" alt="Preset Controller">
 </p>
 
 
@@ -107,7 +107,7 @@ Create NURBS controllers from 69 preset shapes—just click an icon.
 ## Your Controller
 
 <p align="center">
-  <img src="./images/CTL_YourController_01.gif" width="80%" alt="Your Controller">
+  <img src="./images/CTL_YourController_01.gif" alt="Your Controller">
 </p>
 
 Save custom shapes to 18 slots for quick reuse.
@@ -128,7 +128,7 @@ File: `resources/presets/your_controllers.json`
 ## Text Curve
 
 <p align="center">
-  <img src="./images/CTL_TextCurve.gif" width="80%" alt="Text Curve">
+  <img src="./images/CTL_TextCurve.gif" alt="Text Curve">
 </p>
 
 Create NURBS curves from text (useful for labels/controllers).
@@ -144,7 +144,7 @@ Create NURBS curves from text (useful for labels/controllers).
 ## Cloning Controller
 
 <p align="center">
-  <img src="./images/CTL_CloningController_01.gif" width="80%" alt="Cloning Controller">
+  <img src="./images/CTL_CloningController_01.gif" alt="Cloning Controller">
 </p>
 
 Convert NURBS curves to MEL/Python code with adjustable precision.
@@ -166,7 +166,7 @@ Convert NURBS curves to MEL/Python code with adjustable precision.
 ## Group Object
 
 <p align="center">
-  <img src="./images/CTL_GroupObject.gif" width="80%" alt="Group Object">
+  <img src="./images/CTL_GroupObject.gif" alt="Group Object">
 </p>
 
 
@@ -203,7 +203,7 @@ Adds a red locator to edit controller CVs by dragging (supports multi-shape).
 > 
 
 <p align="center">
-  <img src="./images/CTL_EditCtrl_IndyLocator.gif" width="80%" alt="Edit with Indy Locator">
+  <img src="./images/CTL_EditCtrl_IndyLocator.gif" alt="Edit with Indy Locator">
 </p>
 
 <br>
@@ -213,7 +213,7 @@ Adds a red locator to edit controller CVs by dragging (supports multi-shape).
 Scale CVs without affecting transforms. Enter value or middle-drag (min: 1.0).
 
 <p align="center">
-  <img src="./images/CTL_EditCtrl_SelectCV.gif" width="80%" alt="Select CV">
+  <img src="./images/CTL_EditCtrl_SelectCV.gif" alt="Select CV">
 </p>
 
 <br>
@@ -223,7 +223,7 @@ Scale CVs without affecting transforms. Enter value or middle-drag (min: 1.0).
 Select all CVs in one click for easy editing.
 
 <p align="center">
-  <img src="./images/CTL_EditCtrl_SelectCV.gif" width="80%" alt="Select CV">
+  <img src="./images/CTL_EditCtrl_SelectCV.gif" alt="Select CV">
 </p>
 
 <br>
@@ -235,7 +235,7 @@ Replace a controller’s shape using another (select source → target last).
 > <small>💡 Commonly used for controllers with existing connections.</small>
 
 <p align="center">
-  <img src="./images/CTL_EditCtrl_Change.gif" width="80%" alt="Change Shape">
+  <img src="./images/CTL_EditCtrl_Change.gif" alt="Change Shape">
 </p>
 
 <br>
@@ -245,7 +245,7 @@ Replace a controller’s shape using another (select source → target last).
 Merge or split curves (parenting shapes). CVs keep world positions; shapes follow the same suffix naming.
 
 <p align="center">
-  <img src="./images/CTL_EditCtrl_Combine.gif" width="80%" alt="Combine Curves">
+  <img src="./images/CTL_EditCtrl_Combine.gif" alt="Combine Curves">
 </p>
 
 <br>
@@ -256,7 +256,7 @@ Adjust curve thickness via slider or input.
 Middle-drag to scrub, Ctrl+drag for fine control, right-click to reset.
 
 <p align="center">
-  <img src="./images/CTL_EditCtrl_CurveWidth.gif" width="80%" alt="Curve Width">
+  <img src="./images/CTL_EditCtrl_CurveWidth.gif" alt="Curve Width">
 </p>
 
 <br>
@@ -266,7 +266,7 @@ Middle-drag to scrub, Ctrl+drag for fine control, right-click to reset.
 Evenly distributes attributes between the first and last selected objects (supports Translate / Rotate / Scale per axis or XYZ).
 
 <p align="center">
-  <img src="./images/CTL_EditCtrl_Average.gif" width="80%" alt="Average Distribute">
+  <img src="./images/CTL_EditCtrl_Average.gif" alt="Average Distribute">
 </p>
 
 <br>

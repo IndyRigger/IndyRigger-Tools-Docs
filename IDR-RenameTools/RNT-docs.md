@@ -3,7 +3,9 @@
 
 <br>
 
-![UI Overview](./images/RNT_UI_Overview.gif)
+<p align="center">
+  <img src="./images/RNT_UI_Overview.gif" alt="UI Overview">
+</p>
 
 A powerful toolkit for fast and efficient naming in Autodesk Maya. Built for riggers and TDs, IDR RenameTools provides full-scene control across all DAG and DG nodes—featuring batch renaming, regex support, and custom tags in one streamlined, undo-friendly window.
 
@@ -33,7 +35,9 @@ A powerful toolkit for fast and efficient naming in Autodesk Maya. Built for rig
 4. Drag **install.mel** into the Viewport
 5. Shelf button is created automatically
 
-![How to install IDR Maya Tools](../assets/images/IDR-maya-rig-tools-Install-File.gif)
+<p align="center">
+  <img src="../assets/images/IDR-maya-rig-tools-Install-File.gif" alt="How to install IDR Maya Tools">
+</p>
 
 <br>
 
@@ -70,7 +74,9 @@ IDR_RenameTools.show()
 
 💡 Before starting, go to Type Setting and configure the Type or Suffix to match your pipeline. Settings are saved automatically and will persist the next time you open the tool.
 
-![Type Setting overview — edit abbreviations and reset to defaults.](./images/RNT_TypeSetting.gif)
+<p align="center">
+  <img src="./images/RNT_TypeSetting.gif" alt="Type Setting overview — edit abbreviations and reset to defaults.">
+</p>
 
 | **Field** | **Maya Type** | **Default** |
 | :--- | :--- | :--- |
@@ -95,25 +101,28 @@ IDR_RenameTools.show()
 > <small>⚠️ RMB on any field in Page 2 → Reset: restores ALL type tag fields to their defaults at once.</small><br>
 > <small>💡 Settings are saved to `rename_data.json` and loaded automatically on the next launch.</small>
 
-![Right-click any field to reset all type tags to defaults.](./images/RNT_TypeSetting_Reset.gif)
+<p align="center">
+  <img src="./images/RNT_TypeSetting_Reset.gif" alt="Right-click any field to reset all type tags to defaults.">
+</p>
 
 <br>
 <br>
 
-## sRename Field**
+## Rename Field
 
 Type a pattern in the rename field and press Enter or click **[Rename]** to rename all selected objects.
 
 **Default pattern:** `objName@##_Position_Type`
 
-![Rename field — type pattern, press Enter or click Rename.](./images/RNT_RenameField.gif)
+<p align="center">
+  <img src="./images/RNT_RenameField.gif" alt="Rename field — type pattern, press Enter or click Rename.">
+</p>
 
 > <small>⚠️ Suffix, Type, and Position are all defined based on the **Type Setting.**</small>
 
 <br>
-<br>
 
-## Pattern Tokens
+### Pattern Tokens
 
 | Token | Description | Examples |
 | :--- | :--- | :--- |
@@ -127,9 +136,8 @@ Type a pattern in the rename field and press Enter or click **[Rename]** to rena
 > <small>💡 Empty tokens are auto-collapsed (e.g., `arm__JNT` → `arm_JNT`).</small>
 
 <br>
-<br>
 
-## Rename Pattern Examples
+### Rename Pattern Examples
 
 | Pattern | Description / Examples |
 | :--- | :--- |
@@ -146,7 +154,9 @@ Type a pattern in the rename field and press Enter or click **[Rename]** to rena
 
 ### RMB on Rename Button
 
-![Right-click the Rename button to access Shape renaming and Case Conversion options.](./images/RNT_RMB_on_Rename_button.gif)
+<p align="center">
+  <img src="./images/RNT_RMB_on_Rename_button.gif" alt="Right-click the Rename button to access Shape renaming and Case Conversion options.">
+</p>
 
 - **Rename Shape** — Rename shape nodes under selected transforms to `<name>_SHP`
 - **Case Conversion**
@@ -167,7 +177,9 @@ Type a pattern in the rename field and press Enter or click **[Rename]** to rena
 
 ### RMB on Rename Field
 
-![Right-click the Rename field to access pattern history.](./images/RNT_RMB_on_Rename_Field2.gif)
+<p align="center">
+  <img src="./images/RNT_RMB_on_Rename_Field2.gif" alt="Right-click the Rename field to access pattern history.">
+</p>
 
 - **History menu** — Stores the last 20 patterns used; click any entry to reload it instantly
 - **oldName_Type** — Keep original name + add type tag (e.g., spine → spine_JNT)
@@ -180,7 +192,9 @@ Type a pattern in the rename field and press Enter or click **[Rename]** to rena
 
 ## Namespace Management
 
-![Delete a specific namespace via the Rename field.](./images/RNT_DeleteNameSpace.gif)
+<p align="center">
+  <img src="./images/RNT_DeleteNameSpace.gif" alt="Delete a specific namespace via the Rename field.">
+</p>
 
 Delete a specific namespace:
 
@@ -192,7 +206,9 @@ Delete a specific namespace:
 
 ## Prefix — Add Prefix
 
-![Type prefix text and click Add Prefix to prepend to selected objects.](./images/RNT_Prefix.gif)
+<p align="center">
+  <img src="./images/RNT_Prefix.gif" alt="Type prefix text and click Add Prefix to prepend to selected objects.">
+</p>
 
 Type prefix text in the prefix field and click **[Add Prefix]** to prepend to selected objects' names.
 
@@ -205,7 +221,9 @@ Type prefix text in the prefix field and click **[Add Prefix]** to prepend to se
 
 ## Suffix — Add Suffix
 
-![Type suffix text and click Add Suffix to append to selected objects.](./images/RNT_Suffix.gif)
+<p align="center">
+  <img src="./images/RNT_Suffix.gif" alt="Type suffix text and click Add Suffix to append to selected objects.">
+</p>
 
 Type suffix text in the suffix field and click **[Add Suffix]** to append to selected objects' names.
 
@@ -216,7 +234,7 @@ Type suffix text in the suffix field and click **[Add Suffix]** to append to sel
 <br>
 <br>
 
-## Search & Replace**
+## Search & Replace
 
 Enter search text and replacement text, then click **[R]**.
 
@@ -225,7 +243,9 @@ Enter search text and replacement text, then click **[R]**.
 - **Selected** — Selected objects only
 - **All** — Entire scene (DAG + DG)
 
-![Search & Replace with scope selector.](./images/RNT_SR.gif)
+<p align="center">
+  <img src="./images/RNT_SR.gif" alt="Search & Replace with scope selector.">
+</p>
 
 | Search | Replace | Example (Input → Output) |
 | :--- | :--- | :--- |
@@ -234,13 +254,14 @@ Enter search text and replacement text, then click **[R]**.
 | `_ctrl` | *(empty)* | arm_ctrl → arm *(empty replace = delete)* |
 
 <br>
-<br>
 
-## Regex (Auto-Detected)
+### Regex (Auto-Detected)
 
 Regex mode activates automatically when special characters are used: **`^ $ \ [ ] ( ) + ? { } |`**
 
-![Regex mode in Search & Replace.](./images/RNT_Regex.gif)
+<p align="center">
+  <img src="./images/RNT_Regex.gif" alt="Regex mode in Search & Replace.">
+</p>
 
 | Symbol | Meaning | Search | Replace | Example Result |
 | :--- | :--- | :--- | :--- | :--- |
@@ -265,7 +286,9 @@ Regex lets you target specific parts (prefix / suffix), handle multiple patterns
 
 ## Quick Buttons**
 
-![Quick Buttons — Trim Start, Mirror, pasted__, Trim End, Quick Select.](./images/RNT_Quick.gif)
+<p align="center">
+  <img src="./images/RNT_Quick.gif" alt="Quick Buttons — Trim Start, Mirror, pasted__, Trim End, Quick Select.">
+</p>
 
 | Button | Action |
 | :--- | :--- |
@@ -280,7 +303,9 @@ Regex lets you target specific parts (prefix / suffix), handle multiple patterns
 
 ## Mirror Rename
 
-![Select both L and R sides, then click Mirror Rename to swap tokens.](./images/RNT_Mirror.gif)
+<p align="center">
+  <img src="./images/RNT_Mirror.gif" alt="Select both L and R sides, then click Mirror Rename to swap tokens.">
+</p>
 
 Swaps side tokens L ↔ R on all selected objects simultaneously.
 
@@ -295,7 +320,9 @@ Swaps side tokens L ↔ R on all selected objects simultaneously.
 
 ## Quick Select
 
-![Quick Select menu — select by type or find duplicate names.](./images/RNT_QuickSelect.gif)
+<p align="center">
+  <img src="./images/RNT_QuickSelect.gif" alt="Quick Select menu — select by type or find duplicate names.">
+</p>
 
 Click **[Quick Select]** to open the selection helper menu.
 
@@ -307,7 +334,9 @@ Click **[Quick Select]** to open the selection helper menu.
 
 ## All-Node Rename (DAG + DG)**
 
-![Renaming across both DAG and DG nodes in a single operation.](./images/RNT_RenameAllNode.gif)
+<p align="center">
+  <img src="./images/RNT_RenameAllNode.gif" alt="Renaming across both DAG and DG nodes in a single operation.">
+</p>
 
 Rename and Search & Replace across all node types in one workflow.
 
