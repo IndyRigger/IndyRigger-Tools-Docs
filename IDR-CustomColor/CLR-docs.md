@@ -64,7 +64,7 @@ IDR_CustomColor.show()
 <br>
 <br>
 
-# **🔴 Color System & ACES**
+## Color System & ACES**
 
 💡 Before starting, the tool includes 115 preset colors: 31 Maya Index Colors and 84 ACES colors. This ensures accurate viewport color matching across all modes.
 
@@ -76,13 +76,11 @@ The ACES values in this tool are not true ACEScg. They are sampled directly from
 
 The tool provides three color modes: **Index**, **ACES**, and **RGB**.
 
-> <small>⚠️ Custom colors (Eyedropper or HEX) use standard RGB only and may not match exactly in the viewport.
+> <small>⚠️ Custom colors (Eyedropper or HEX) use standard RGB only and may not match exactly in the viewport.<br>
 > 💡 For more details on RGB, Maya Index Color, and ACEScg, see the Terminology section below.</small>
 
 <br>
 <br>
-
-# **🔴 Color Palette**
 
 ## 115 Preset Colors
 
@@ -93,6 +91,7 @@ Browse and apply from 115 preset colors divided into:
 - **Main Palette** (11 signature colors)
 - **More Colors** (104 extended colors)
 
+<br>
 <br>
 
 ## Color Input
@@ -105,6 +104,7 @@ Enter the desired color value in HEX / RGB / HSV / ACEScg format.
 - **Smart paste**: auto-detects format on paste
 
 <br>
+<br>
 
 ## Current Color
 
@@ -112,6 +112,7 @@ Enter the desired color value in HEX / RGB / HSV / ACEScg format.
 
 Displays the active color. Left-click to open the Maya Color Editor and select additional colors.
 
+<br>
 <br>
 
 ## Brightness
@@ -122,6 +123,7 @@ Adjust brightness before applying (no hue shift).
 
 > <small>💡 0 = black · 50 = original · 100 = bright</small>
 
+<br>
 <br>
 
 ## Eyedropper
@@ -135,7 +137,7 @@ Pick any color from anywhere on screen. Features an 11×11 zoom preview grid wit
 <br>
 <br>
 
-# 🔴 Favorite Presets
+## Favorite Presets
 
 ![CLR_Favorite_Presets_01.gif](./images/CLR_Favorite_Presets_01.gif)
 
@@ -149,6 +151,9 @@ Store and reuse colors with 12 slots. Supports RGB, ACES, and Maya Index, with c
 File: `resources/presets/favorites.json`
 
 > <small>💡 Share the JSON for team use</small>
+
+<br>
+<br>
 
 ## Built-in Palette Files
 
@@ -172,7 +177,7 @@ In addition to personal slots, the tool includes 8 ready-made palette files cura
 <br>
 <br>
 
-# 🔴 Viewport & Outliner
+## Viewport & Outliner
 
 ![CLR_ViewportOutliner.gif](./images/CLR_ViewportOutliner.gif)
 
@@ -184,7 +189,6 @@ Choose whether color is applied to the Viewport (shape node), Outliner (transfor
 <br>
 <br>
 
-# 🔴 Apply Color
 
 ## Apply & Reset
 
@@ -193,6 +197,7 @@ Choose whether color is applied to the Viewport (shape node), Outliner (transfor
 - **Apply**: Applies selected color to objects (Viewport / Outliner)
 - **Reset**: Restores color to default (disables override)
 
+<br>
 <br>
 
 ## Random Color
@@ -204,6 +209,7 @@ Assign random colors from 11 presets (no repeats if ≤11 objects).
 > <small>💡 Auto reshuffle when exceeded</small>
 
 <br>
+<br>
 
 ## Rainbow Color
 
@@ -213,6 +219,7 @@ Distribute colors in sequence across objects.
 
 > <small>💡 Auto interpolate if fewer objects than presets</small>
 
+<br>
 <br>
 
 ## Fade Dark / Light
@@ -224,6 +231,7 @@ Fade color across selection (dark or light direction).
 > <small>💡 Dark: progressively darker · Light: progressively brighter/desaturated</small>
 
 <br>
+<br>
 
 ## Display Type
 
@@ -234,7 +242,7 @@ Set viewport display mode: **Normal / Template / Reference**
 <br>
 <br>
 
-# 🔴 Create Material
+## Create Material
 
 ![*Select → Choose color → **Create Material** → Pick shader*](./images/CLR_Create_Material.gif)
 

@@ -66,7 +66,7 @@ IDR_RenameTools.show()
 <br>
 <br>
 
-# **🔴 Type Setting**
+## Type Setting
 
 💡 Before starting, go to Type Setting and configure the Type or Suffix to match your pipeline. Settings are saved automatically and will persist the next time you open the tool.
 
@@ -92,7 +92,7 @@ IDR_RenameTools.show()
 2. Click out of the field or press Tab — settings save automatically
 3. The new value takes effect immediately for all operations using the Type or Position token
 
-> <small>⚠️ RMB on any field in Page 2 → Reset: restores ALL type tag fields to their defaults at once.</small>
+> <small>⚠️ RMB on any field in Page 2 → Reset: restores ALL type tag fields to their defaults at once.</small><br>
 > <small>💡 Settings are saved to `rename_data.json` and loaded automatically on the next launch.</small>
 
 ![Right-click any field to reset all type tags to defaults.](./images/RNT_TypeSetting_Reset.gif)
@@ -100,7 +100,7 @@ IDR_RenameTools.show()
 <br>
 <br>
 
-# **🔴 Rename Field**
+## sRename Field**
 
 Type a pattern in the rename field and press Enter or click **[Rename]** to rename all selected objects.
 
@@ -110,6 +110,7 @@ Type a pattern in the rename field and press Enter or click **[Rename]** to rena
 
 > <small>⚠️ Suffix, Type, and Position are all defined based on the **Type Setting.**</small>
 
+<br>
 <br>
 
 ## Pattern Tokens
@@ -126,6 +127,7 @@ Type a pattern in the rename field and press Enter or click **[Rename]** to rena
 > <small>💡 Empty tokens are auto-collapsed (e.g., `arm__JNT` → `arm_JNT`).</small>
 
 <br>
+<br>
 
 ## Rename Pattern Examples
 
@@ -137,6 +139,7 @@ Type a pattern in the rename field and press Enter or click **[Rename]** to rena
 | `Position_oldName` | Add side token as prefix (e.g., L_arm, R_arm) |
 | `objName@##_Position_Type` | (Default) e.g., objNameA01_L_GEO, objNameB02_L_GEO |
 
+<br>
 <br>
 
 ## RMB Context Menus
@@ -160,6 +163,8 @@ Type a pattern in the rename field and press Enter or click **[Rename]** to rena
 - **Delete Namespace** — Deletes the namespace typed in the Rename field
 - **Auto Rename Shape (toggle)** — When enabled, shape nodes are renamed automatically every time a transform is renamed
 
+<br>
+
 ### RMB on Rename Field
 
 ![Right-click the Rename field to access pattern history.](./images/RNT_RMB_on_Rename_Field2.gif)
@@ -170,6 +175,7 @@ Type a pattern in the rename field and press Enter or click **[Rename]** to rena
 
 > <small>💡 History is persisted to JSON and survives Maya restart.</small>
 
+<br>
 <br>
 
 ## Namespace Management
@@ -184,8 +190,6 @@ Delete a specific namespace:
 <br>
 <br>
 
-# **🔴 Prefix / Suffix Field**
-
 ## Prefix — Add Prefix
 
 ![Type prefix text and click Add Prefix to prepend to selected objects.](./images/RNT_Prefix.gif)
@@ -196,6 +200,7 @@ Type prefix text in the prefix field and click **[Add Prefix]** to prepend to se
 
 > <small>💡 Default: `prefix_` | RMB → Reset</small>
 
+<br>
 <br>
 
 ## Suffix — Add Suffix
@@ -211,7 +216,7 @@ Type suffix text in the suffix field and click **[Add Suffix]** to append to sel
 <br>
 <br>
 
-# **🔴 Search & Replace**
+## Search & Replace**
 
 Enter search text and replacement text, then click **[R]**.
 
@@ -228,6 +233,7 @@ Enter search text and replacement text, then click **[R]**.
 | `_L` | `_R` | hand_L_JNT → hand_R_JNT |
 | `_ctrl` | *(empty)* | arm_ctrl → arm *(empty replace = delete)* |
 
+<br>
 <br>
 
 ## Regex (Auto-Detected)
@@ -257,7 +263,7 @@ Regex lets you target specific parts (prefix / suffix), handle multiple patterns
 <br>
 <br>
 
-# **🔴 Quick Buttons**
+## Quick Buttons**
 
 ![Quick Buttons — Trim Start, Mirror, pasted__, Trim End, Quick Select.](./images/RNT_Quick.gif)
 
@@ -269,6 +275,7 @@ Regex lets you target specific parts (prefix / suffix), handle multiple patterns
 | **Trim End (◂)** | Removes the last character from each selected object's name |
 | **Quick Select** | Opens a menu to select objects by type or find duplicate names |
 
+<br>
 <br>
 
 ## Mirror Rename
@@ -284,6 +291,7 @@ Swaps side tokens L ↔ R on all selected objects simultaneously.
 > <small>⚠️ Side tokens (L, R, C) can be customized in Page 2 → **Type Setting.**</small>
 
 <br>
+<br>
 
 ## Quick Select
 
@@ -297,7 +305,7 @@ Click **[Quick Select]** to open the selection helper menu.
 <br>
 <br>
 
-# **🔴 All-Node Rename (DAG + DG)**
+## All-Node Rename (DAG + DG)**
 
 ![Renaming across both DAG and DG nodes in a single operation.](./images/RNT_RenameAllNode.gif)
 
