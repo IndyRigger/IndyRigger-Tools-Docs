@@ -64,7 +64,7 @@ IDR_ControllerTools.show()
 <br>
 <br>
 
-# **🔴 Suffix Settings**
+## Suffix Settings
 
 💡 Before starting, configure the Curve and Shape suffixes to match your pipeline naming. This helps ensure all created nodes follow a consistent standard and integrate smoothly with your team’s workflow.
 
@@ -83,7 +83,6 @@ Examples of custom pipeline configurations:
 <br>
 <br>
 
-# **🔴 Create Controller**
 
 ## 69 Preset Controller
 
@@ -125,7 +124,7 @@ Create NURBS curves from text (useful for labels/controllers).
 
 - Type text → choose font (right-click) → create
 
-> <small>⚠️ Unsupported fonts reset to default with a warning.
+> <small>⚠️ Unsupported fonts reset to default with a warning.<br>
 > 💡 Font auto-saves; shape names follow suffix </small>
 > 
 
@@ -151,7 +150,7 @@ Convert NURBS curves to MEL/Python code with adjustable precision.
 <br>
 <br>
 
-# 🔴 Group Object
+## Group Object
 
 ![  *•*  Auto: adds groups on create.
   •  Manual: group selected anytime.
@@ -180,15 +179,13 @@ Cube_offset
 <br>
 <br>
 
-# 🔴 Edit Controller
 
-Edit controller shape without affecting transforms. Right-click to choose mode.
 
 ## Edit with Indy Locator
 
 Adds a red locator to edit controller CVs by dragging (supports multi-shape).
 
-> <small>⚠️ Use **Delete "editCTL_GRP"** to finish—don’t delete it manually.
+> <small>⚠️ Use **Delete "editCTL_GRP"** to finish—don’t delete it manually.<br>
 > 💡 Button auto-activates when detected.</small>
 > 
 
