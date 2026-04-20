@@ -70,9 +70,9 @@ IDR_ControllerTools.show()
 <br>
 <br>
 
-## Page 1 — Create Joint / Locator
+# Page 1 — Create Joint / Locator
 
-### Name Pattern
+## Name Pattern
 
 Enter a name in the Name Pattern field before pressing Create. Use `#` characters to define zero-padding.
 
@@ -91,7 +91,7 @@ Enter a name in the Name Pattern field before pressing Create. Use `#` character
 
 <br>
 
-### Create Joint Center
+## Create Joint Center
 
 Creates one joint per selected object, placed at the Bounding Box center with rotation matched from the source object.
 
@@ -110,7 +110,7 @@ Creates one joint per selected object, placed at the Bounding Box center with ro
 
 <br>
 
-### Create Joint Between
+## Create Joint Between
 
 Creates exactly one joint at the Bounding Box center of all selected objects combined.
 
@@ -125,7 +125,7 @@ Creates exactly one joint at the Bounding Box center of all selected objects com
 
 <br>
 
-### Create Joint on Curve
+## Create Joint on Curve
 
 Creates multiple joints distributed along a NURBS curve.
 
@@ -144,7 +144,7 @@ Creates multiple joints distributed along a NURBS curve.
 
 <br>
 
-### Create Joint on Joint
+## Create Joint on Joint
 
 Inserts joints between two endpoint joints.
 
@@ -161,7 +161,7 @@ Inserts joints between two endpoint joints.
 
 <br>
 
-### Spacing Bias
+## Spacing Bias
 
 The Bias slider appears only in Curve and Joint modes. It controls the spacing distribution of joints.
 
@@ -180,7 +180,7 @@ The Bias slider appears only in Curve and Joint modes. It controls the spacing d
 
 <br>
 
-### Switch Joint / Locator Mode
+## Switch Joint / Locator Mode
 
 The Create button works for both Joints and Locators.
 
@@ -199,7 +199,7 @@ When switched to Locator mode:
 
 <br>
 
-### Joint Size / Display Scale
+## Joint Size / Display Scale
 
 Controls joint display size, Radius Joint, and Locator Scale in the viewport.
 
@@ -221,7 +221,7 @@ Controls joint display size, Radius Joint, and Locator Scale in the viewport.
 
 <br>
 
-### Hide / Show Joints
+## Hide / Show Joints
 
 - **Hide Joints** — sets drawStyle to hidden on selected joints
 - **Show Joints** — sets drawStyle to bone on selected joints
@@ -234,7 +234,7 @@ Controls joint display size, Radius Joint, and Locator Scale in the viewport.
 
 <br>
 
-### Select by Suffix
+## Select by Suffix
 
 Select all objects whose names match a suffix pattern.
 
@@ -253,7 +253,7 @@ Select all objects whose names match a suffix pattern.
 <br>
 <br>
 
-## Page 2 — Orient Joint
+# Page 2 — Orient Joint
 
 **Orient button:** LMB to apply orient in the current mode | RMB to select orient mode
 
@@ -265,7 +265,7 @@ Select all objects whose names match a suffix pattern.
 
 <br>
 
-### Orient Joints
+## Orient Joints
 
 Orients joints using Aim Constraint based on the configured axes.
 
@@ -290,7 +290,7 @@ Orients joints using Aim Constraint based on the configured axes.
 
 <br>
 
-### Orient to World
+## Orient to World
 
 Zeros all jointOrient attributes so the joint aligns with world space.
 
@@ -304,7 +304,7 @@ Zeros all jointOrient attributes so the joint aligns with world space.
 
 <br>
 
-### Orient to Normal
+## Orient to Normal
 
 Orients joints so the Aim Axis points along the surface normal at the closest point.
 
@@ -321,7 +321,7 @@ Orients joints so the Aim Axis points along the surface normal at the closest po
 
 <br>
 
-### Orient to Curve
+## Orient to Curve
 
 Orients joints so the Aim Axis points along the curve tangent at the closest point.
 
@@ -336,7 +336,7 @@ Orients joints so the Aim Axis points along the curve tangent at the closest poi
 
 <br>
 
-### Orient to Target Aim (Recommended)
+## Orient to Target Aim (Recommended)
 
 Creates interactive aim locators. Move the locators to set aim and up directions before applying.
 
@@ -368,7 +368,7 @@ Creates interactive aim locators. Move the locators to set aim and up directions
 
 <br>
 
-### Orient Copy
+## Orient Copy
 
 Copies orientation from one source joint to one or more target joints.
 
@@ -385,7 +385,7 @@ Copies orientation from one source joint to one or more target joints.
 
 <br>
 
-### Straighten Chain
+## Straighten Chain
 
 Redistributes joints along a straight line from root to end, then re-orients. Requires at least 3 joints.
 
@@ -399,7 +399,7 @@ Redistributes joints along a straight line from root to end, then re-orients. Re
 
 <br>
 
-### Orient None
+## Orient None
 
 Freezes rotation and zeros jointOrient (makeIdentity + setAttr = 0).
 
@@ -413,7 +413,7 @@ Freezes rotation and zeros jointOrient (makeIdentity + setAttr = 0).
 
 <br>
 
-### Set Joint Orient
+## Set Joint Orient
 
 Adjusts jointOrient of selected joints in realtime using a slider.
 
@@ -434,7 +434,7 @@ Adjusts jointOrient of selected joints in realtime using a slider.
 
 <br>
 
-### Show / Hide Local Axis
+## Show / Hide Local Axis
 
 - **Show Axis** — displays local rotation axes on selected joints
 - **Hide Axis** — hides local rotation axes
@@ -445,7 +445,7 @@ Adjusts jointOrient of selected joints in realtime using a slider.
 
 <br>
 
-### Plane Axis Visualizer
+## Plane Axis Visualizer
 
 Creates 3 colored plane meshes (XY/YZ/XZ) per joint to visualize local axes clearly.
 
