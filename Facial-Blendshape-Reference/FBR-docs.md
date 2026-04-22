@@ -7,7 +7,9 @@
 
 ## **1. eyeBlink** 
 
-![01_eyeBlink.gif](01_eyeBlink.gif)
+<p align="center">
+  <img src="./images/01_eyeBlink.gif" alt="eyeBlink">
+</p>
 
 ### Eye closing (Blink)
 
@@ -23,7 +25,9 @@
 
 ## **2. eyeOpen**
 
-![02_eyeOpen.gif](02_eyeOpen.gif)
+<p align="center">
+  <img src="./images/02_eyeOpen.gif" alt="eyeOpen">
+</p>
 
 ### Wide open eyes
 
@@ -38,7 +42,9 @@
 
 ## **3. eyeBrowSad**
 
-![03_eyeBrowSad.gif](03_eyeBrowSad.gif)
+<p align="center">
+  <img src="./images/03_eyeBrowSad.gif" alt="eyeBrowSad">
+</p>
 
 ### Sad brows
 
@@ -52,7 +58,9 @@
 
 ## **4. eyeBrowFrown**
 
-![04_eyeBrowFrown.gif](04_eyeBrowFrown.gif)
+<p align="center">
+  <img src="./images/04_eyeBrowFrown.gif" alt="eyeBrowFrown">
+</p>
 
 ## Frown (angry / stressed)
 
@@ -66,7 +74,9 @@
 
 ## **5. eyeBrowLower**
 
-![05_eyeBrowLower.gif](05_eyeBrowLower.gif)
+<p align="center">
+  <img src="./images/05_eyeBrowLower.gif" alt="eyeBrowLower">
+</p>
 
 ### Lowered brows (Neutral → Serious)
 
@@ -81,7 +91,9 @@
 
 ## **6. eyeBrowUpper**
 
-![06_eyeBrowUpper.gif](06_eyeBrowUpper.gif)
+<p align="center">
+  <img src="./images/06_eyeBrowUpper.gif" alt="eyeBrowUpper">
+</p>
 
 ### Raised brows
 
@@ -96,7 +108,9 @@
 
 ## **7. mouthNarrow**
 
-![07_mouthNarrow.gif](07_mouthNarrow.gif)
+<p align="center">
+  <img src="./images/07_mouthNarrow.gif" alt="mouthNarrow">
+</p>
 
 ### Narrow / Pucker
 
@@ -112,7 +126,9 @@
 
 ## **8. mouthWide**
 
-![08_mouthWide.gif](08_mouthWide.gif)
+<p align="center">
+  <img src="./images/08_mouthWide.gif" alt="mouthWide">
+</p>
 
 ### Wide / Spread
 
@@ -127,7 +143,9 @@
 
 ## **9. mouthSmile**
 
-![09_mouthSmile.gif](09_mouthSmile.gif)
+<p align="center">
+  <img src="./images/09_mouthSmile.gif" alt="mouthSmile">
+</p>
 
 ### Smile
 
@@ -143,7 +161,9 @@
 
 ## **10. mouthSad**
 
-![10_mouthSad.gif](10_mouthSad.gif)
+<p align="center">
+  <img src="./images/10_mouthSad.gif" alt="mouthSad">
+</p>
 
 ### Sad mouth
 
@@ -159,7 +179,9 @@
 
 ## **11. mouthSneer**
 
-![11_mouthSneer.gif](11_mouthSneer.gif)
+<p align="center">
+  <img src="./images/11_mouthSneer.gif" alt="mouthSneer">
+</p>
 
 ### Sneer
 
@@ -175,7 +197,9 @@
 
 ## **12. mouthPuff**
 
-![12_mouthPuff.gif](12_mouthPuff.gif)
+<p align="center">
+  <img src="./images/12_mouthPuff.gif" alt="mouthPuff">
+</p>
 
 ### Puffed cheeks
 
@@ -189,7 +213,9 @@
 
 ## **13. lookUp**
 
-![13_lookUp.gif](13_lookUp.gif)
+<p align="center">
+  <img src="./images/13_lookUp.gif" alt="lookUp">
+</p>
 
 ### Looking up (focus on brows)
 
@@ -205,7 +231,9 @@
 
 ## **14. lookDown**
 
-![14_lookDown.gif](14_lookDown.gif)
+<p align="center">
+  <img src="./images/14_lookDown.gif" alt="lookDown">
+</p>
 
 ### Looking down (focus on brows)
 
@@ -221,7 +249,9 @@
 
 ## **15. lookSide**
 
-![15_lookSide.gif](15_lookSide.gif)
+<p align="center">
+  <img src="./images/15_lookSide.gif" alt="lookSide">
+</p>
 
 ## Looking left (focus on brows)
 
@@ -236,3 +266,45 @@
 ---
 
 ## ⚠️ Percentage values are **guidelines**, not absolute values
+
+---
+
+<br>
+
+## Get the Tools
+Visit the official store for advanced scripts and premium rigging assets.
+
+[![Gumroad](https://img.shields.io/badge/Gumroad-IndyRigger-black?style=flat-square&logo=gumroad)](https://indyrigger.gumroad.com/)
+
+<br>
+
+## Support This Project
+If you find these tools helpful, consider supporting further development.
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange?style=flat-square&logo=buy-me-a-coffee)](https://buymeacoffee.com/indyrigger)
+
+<br>
+
+## Connect & Contact
+Follow for the latest updates, tutorials, and more rigging content.
+
+[![Facebook](https://img.shields.io/badge/Facebook-IndyRigger-blue?style=flat-square&logo=facebook)](https://www.facebook.com/indyrigger) [![YouTube](https://img.shields.io/badge/YouTube-IndyRigger-red?style=flat-square&logo=youtube)](https://www.youtube.com/indyrigger) [![Email](https://img.shields.io/badge/Email-rigger.indy@gmail.com-eeeeee?style=flat-square&logo=gmail&labelColor=333333)](mailto:rigger.indy@gmail.com)
+
+<br>
+<br>
+
+🔴 เครื่องมือตัวนี้ผมตั้งใจทำและปล่อยให้ โหลดไปใช้กันได้ฟรีๆ ครับ เพราะอยากซัพพอร์ตน้องๆ นักเรียน หรือ Rigger มือใหม่ที่กำลังเริ่มหัดริก แต่อาจจะยังไม่มีงบซื้อเครื่องมือแพงๆ ผมอยากให้ทุกคนมีของดีไว้ใช้ฝึกฝนและอัปสกิลตัวเองกันให้เต็มที่
+
+หวังว่า IDR Tools จะช่วยให้เส้นทางสาย Rigger ของทุกคนไปได้ไกลขึ้นนะครับ... วันไหนที่เก่งแล้ว ประสบความสำเร็จแล้ว จะกลับมาช่วยพัฒนา หรือสนับสนุนโปรเจกต์นี้ในรูปแบบไหน ผมก็ยินดีและขอบคุณมากๆ ครับ
+
+…
+
+🔴 I created this tool and made it freely available for download because I want to support students and beginner riggers who are just starting out but may not have the budget for expensive tools. I hope everyone can have access to good resources to practice and fully develop their skills.
+
+I truly hope that IDR Tools can help you go further on your journey as a rigger. And one day, when you've grown and found success, if you choose to come back and contribute to the development or support this project in any way, I would deeply appreciate it.
+
+<br>
+
+<p align="center">
+© 2026 Indy Rigger • Some rights reserved.
+</p>
