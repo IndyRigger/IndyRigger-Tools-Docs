@@ -1,6 +1,6 @@
 # IndyRigger Tools Documentation
 
-![Maya](https://img.shields.io/badge/Maya-2022%2B-blue?style=flat-square&logo=autodesk) ![Python](https://img.shields.io/badge/Python-3.7%2B-yellow?style=flat-square&logo=python) ![OS](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen?style=flat-square) [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-nc/4.0/)
+![Maya](https://img.shields.io/badge/Maya-2022%2B-blue?style=flat-square&logo=autodesk) ![Python](https://img.shields.io/badge/Python-3.7%2B-yellow?style=flat-square&logo=python) ![UI](https://img.shields.io/badge/UI-PySide2-brightgreen?style=flat-square) ![OS](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-0078D6?style=flat-square) [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-nc/4.0/) ![Indy](https://img.shields.io/badge/Tool-IndyRigger-F04141?style=flat-square)
 
 ![IndyRigger Maya Rigging Tools](./assets/images/IDR-maya-rig-tools-IndyRigger-Tools.gif)
 
@@ -16,13 +16,11 @@ See the sections below for details.
 [📄 IDR ControllerTools v2026.1](./IDR-ControllerTools/CTL-docs.md)  
 [📄 IDR RenameTools v2026.1](./IDR-RenameTools/RNT-docs.md)  
 [📄 IDR CustomColor v2026.1](./IDR-CustomColor/CLR-docs.md)  
-[📄 IDR SmartJoint v2026.1](./IDR-SmartJoint/SMJ-docs.md)  
+[📄 IDR SmartJoint v2026.1](./IDR-SmartJoint/SMJ-docs.md) 
 
-[🚧 IDR RepathTexture v2026.1](./IDR-RepathTexture/index.md)  
-[🚧 IDR BlendshapeControl v2026.1](./IDR-BlendshapeControl/index.md)  
-[🚧 IDR ShelfCraft v2026.1](./IDR-ShelfCraft/index.md)  
-[🚧 IDR PlayblastExpress v2026.1](./IDR-PlayblastExpress/index.md)  
- 
+[📄 Facial Blendshape Reference ☠️](./Facial-Blendshape-Reference/FBR-docs.md)  
+
+
 <br>
 <br>
 
