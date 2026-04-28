@@ -60,8 +60,8 @@ import sys
 home_dir = os.path.expanduser("~")
 
 paths = [
-    os.path.join(home_dir, "Documents", "maya", "scripts", "IDR_SmartJoint_v2026.1", "scripts"),
-    os.path.join(home_dir, "maya", "scripts", "IDR_SmartJoint_v2026.1", "scripts"),
+    os.path.join(home_dir, "Documents", "maya", "scripts", "IDR_BlendshapeControl_v2026.1", "scripts"),
+    os.path.join(home_dir, "maya", "scripts", "IDR_BlendshapeControl_v2026.1", "scripts"),
 ]
 
 for path in paths:
@@ -69,8 +69,8 @@ for path in paths:
         sys.path.insert(0, path)
         break
 
-import IDR_ControllerTools
-IDR_ControllerTools.show()
+import IDR_BlendshapeControl
+IDR_BlendshapeControl.show()
 ```
 
 <br>

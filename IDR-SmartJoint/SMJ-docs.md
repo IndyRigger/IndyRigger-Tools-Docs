@@ -63,8 +63,8 @@ for path in paths:
         sys.path.insert(0, path)
         break
 
-import IDR_ControllerTools
-IDR_ControllerTools.show()
+import IDR_SmartJoint
+IDR_SmartJoint.show()
 ```
 
 <br>
