@@ -9,6 +9,8 @@
 
 A powerful toolkit for building and managing blendshape-based facial rigs in Maya without manual node connections. Since facial rigging can be set up in many ways, and one common approach is using blendshapes as a foundation, this tool is designed to generate controllers that efficiently drive blendshapes. It supports multiple controller types (Type A–E), enabling a faster and more reliable workflow.
 
+<br>
+
 - **5 Ctrl Types (A–E)** — Prebuilt NURBS controls with limits and zone buttons per direction
 - **3 Visual Styles** — Shape, Soft, Line (set on creation)
 - **Blendshape Mode** — Link zones to blendshape weights with auto node setup
@@ -17,6 +19,7 @@ A powerful toolkit for building and managing blendshape-based facial rigs in May
 - **⚪ White Button** — No Connection
 - **🟡 Yellow Button** — Connected
 
+<br>
 <br>
 
 ## Requirements
@@ -196,12 +199,16 @@ Enter a name, then click the red circle button (A–E) to create the controller.
 | **Soft** | Rounded corners (default) |
 | **Line** | Outline (A/B/C) or simple line (D/E), with thicker line |
 
+<br>
+
 **2 Frame Colors** — Controls the frame's display type to prevent selection in the viewport.
 
 | Option | Behavior |
 | :--- | :--- |
 | **Checked** | Black (Reference mode) |
 | **Unchecked** | Grey (Template mode, default) |
+
+<br>
 
 **Frame Thickness** — Adjust the curve thickness (Min/Default = 1).
 
@@ -217,6 +224,7 @@ Updates the tool to the selected controller type. Select a ctrl and press **Relo
   <img src="./images/BSC_Reload.gif" alt="Reload — refresh zone button states and controller type.">
 </p>
 
+<br>
 <br>
 
 ## Break Connection
@@ -235,6 +243,8 @@ Updates the tool to the selected controller type. Select a ctrl and press **Relo
   <img src="./images/BSC_Break_From_Zone.gif" alt="Break Connection from a zone button.">
 </p>
 
+<br>
+
 **From the Blendshape List**
 
 1. Right-click a red-highlighted weight in Blendshape List
@@ -245,6 +255,8 @@ Updates the tool to the selected controller type. Select a ctrl and press **Relo
 <p align="center">
   <img src="./images/BSC_Break_From_List.gif" alt="Break Connection from the Blendshape List.">
 </p>
+
+<br>
 
 ### Driven Key Mode
 
@@ -259,6 +271,7 @@ Updates the tool to the selected controller type. Select a ctrl and press **Relo
   <img src="./images/BSC_Break_From_SetDvk.gif" alt="Break Connection from Driven Key mode.">
 </p>
 
+<br>
 <br>
 
 ## Blendshape List Window
@@ -280,6 +293,9 @@ Displays all blendShape nodes in the scene (loaded on open or via Reload).
 | **RMB → Clear Selected** | Remove selected nodes from the list (UI only; does not affect the scene) |
 | **RMB → Select Node** | Select the blendshape node in the scene (single selection only) |
 | **RMB → Shape Editor** | Open Maya Shape Editor |
+
+<br>
+<br>
 
 ### List B — Weight Targets
 
@@ -342,7 +358,7 @@ SW  │  S  │  SE
 | E | Wide Right |
 
 <p align="left">
-  <img src="./images/BSC_A-MouthConner.png" alt="Type A — Mouth Corner example." style="width: 50%; height: auto;">
+  <img src="./images/BSC_A-MouthConner.png" alt="Type A — Mouth Corner example." style="width: 40%; height: auto;">
 </p>
 
 <br>
@@ -361,7 +377,7 @@ SW  │  S  │  SE
 | SW | Cheek Suck Left |
 | SE | Cheek Suck Right |
 <p align="left">
-  <img src="./images/BSC_A-CheekPuff.png" alt="Type A — Cheek Puff / Suck example." style="width: 50%; height: auto;">
+  <img src="./images/BSC_A-CheekPuff.png" alt="Type A — Cheek Puff / Suck example." style="width: 40%; height: auto;">
 </p>
 <br>
 <br>
@@ -395,7 +411,7 @@ NW  │  N  │  NE
 | W | Half Blink Left |
 | E | Half Blink Right |
 <p align="left">
-  <img src="./images/BSC_A-EyeBlink.png" alt="Type B — Eye Blink example." style="width: 50%; height: auto;">
+  <img src="./images/BSC_A-EyeBlink.png" alt="Type B — Eye Blink example." style="width: 40%; height: auto;">
 </p>
 <br>
 <br>
@@ -424,7 +440,7 @@ Use when movement is confined to the upper-right area.
 | N | Eyebrow Furrow |
 | E | Eyebrow Lower |
 <p align="left">
-  <img src="./images/BSC_C-EyebrowMove.png" alt="Type C — Eyebrow Move example." style="width: 45%; height: auto;">
+  <img src="./images/BSC_C-EyebrowMove.png" alt="Type C — Eyebrow Move example." style="width: 35%; height: auto;">
 </p>
 <br>
 <br>
@@ -449,7 +465,7 @@ Use when movement is upward only.
 | :--- | :--- |
 | N | Jaw Open |
 <p align="left">
-  <img src="./images/BSC_D-JawOpen.png" alt="Type D — Jaw Open (center) example." style="width: 40%; height: auto;">
+  <img src="./images/BSC_D-JawOpen.png" alt="Type D — Jaw Open (center) example." style="width: 30%; height: auto;">
 </p>
 <br>
 <br>
@@ -477,7 +493,7 @@ Use when movement is up and down.
 | N | Brow Center Raise |
 | S | Brow Center Press |
 <p align="left">
-  <img src="./images/BSC_E-BrowCenter.png" alt="Type E — Brow Center Up / Down example." style="width: 30%; height: auto;">
+  <img src="./images/BSC_E-BrowCenter.png" alt="Type E — Brow Center Up / Down example." style="width: 25%; height: auto;">
 </p>
 <br>
 <br>
@@ -512,6 +528,7 @@ Use when movement is up and down.
 - **Stored target** — No live mesh (baked)
 - **Live mesh** — Connected geometry
 
+<br>
 <br>
 
 ## Get the Tools
