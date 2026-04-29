@@ -17,6 +17,7 @@ See the sections below for details.
 [📄 IDR RenameTools v2026.1](./IDR-RenameTools/RNT-docs.md)  
 [📄 IDR CustomColor v2026.1](./IDR-CustomColor/CLR-docs.md)  
 [📄 IDR SmartJoint v2026.1](./IDR-SmartJoint/SMJ-docs.md)  
+[📄 IDR RepathTexture v2026.1](./IDR-RepathTexture/RPT-docs.md)  
 
 [📄 Facial Blendshape Reference ☠️](./Facial-Blendshape-Reference/FBR-docs.md)  
 
