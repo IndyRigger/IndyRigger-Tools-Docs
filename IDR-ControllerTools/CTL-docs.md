@@ -10,8 +10,7 @@ A powerful toolkit for creating, editing, and managing rigging controllers (NURB
 
 <br>
 
-# Install Tools
-👉 **[Installation Guide](../Install-Tools.md)**
+# 👉 **[Installation Guide](../Install-Tools.md)**
 
 <br>
 <br>
