@@ -8,62 +8,10 @@
 
 A powerful toolkit for creating, editing, and managing rigging controllers (NURBS curves) in Autodesk Maya. Designed to streamline repetitive tasks and speed up your rigging workflow, this tool lets you perform complex operations with just a few clicks.
 
-<br>
+---
 
-## Requirements
-
-| Category | Specification |
-| :--- | :--- |
-| **Maya Version** | 2022, 2023, 2024, 2025+ |
-| **Language** | Python 3.7+ |
-| **UI Framework** | PySide2 (2022-2024), PySide6 (2025+) |
-| **OS Support** | Windows, macOS, Linux |
-| **License** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
-
-<br>
-
-## Installation
-
-**Method 1: Drag & Drop (Recommended)**
-
-1. Unzip the package
-2. Place the folder (e.g., *Documents/maya/scripts*)
-3. Open Maya
-4. Drag **install.mel** into the Viewport
-5. Shelf button is created automatically
-
-<p align="center">
-  <img src="../assets/images/IDR-maya-rig-tools-Install-File.gif" alt="How to install IDR Maya Tools">
-</p>
-
-<br>
-
-**Method 2: Manual Install**
-Windows · macOS · Linux
-
-1. Copy folder to: *~/maya/scripts/IDR_ControllerTools_v2026.1*
-2. Open Script Editor (Python) and run:
-
-```python
-import os
-import sys
-
-home_dir = os.path.expanduser("~")
-
-paths = [
-    os.path.join(home_dir, "Documents", "maya", "scripts", "IDR_ControllerTools_v2026.1", "scripts"),
-    os.path.join(home_dir, "maya", "scripts", "IDR_ControllerTools_v2026.1", "scripts"),
-]
-
-for path in paths:
-    if os.path.exists(path):
-        sys.path.insert(0, path)
-        break
-
-import IDR_ControllerTools
-IDR_ControllerTools.show()
-```
-
+# Install Tools
+👉 **[Installation Guide](./Install-Tools.md)**
 <br>
 <br>
 

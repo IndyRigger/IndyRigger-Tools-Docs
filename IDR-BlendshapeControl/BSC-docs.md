@@ -19,65 +19,13 @@ A powerful toolkit for building and managing blendshape-based facial rigs in May
 - **⚪ White Button** — No Connection
 - **🟡 Yellow Button** — Connected
 
+---
+
+# Install Tools
+👉 **[Installation Guide](./Install-Tools.md)**
 <br>
 <br>
 
-## Requirements
-
-| Category | Specification |
-| :--- | :--- |
-| **Maya Version** | 2022, 2023, 2024, 2025+ |
-| **Language** | Python 3.7+ |
-| **UI Framework** | PySide2 (2022–2024), PySide6 (2025+) |
-| **OS Support** | Windows, macOS, Linux |
-| **License** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — Personal use only / Shareable / No commercial use |
-
-<br>
-
-## Installation
-
-**Method 1: Drag & Drop (Recommended)**
-
-1. Unzip the package
-2. Place the folder (e.g., *Documents/maya/scripts*)
-3. Open Maya
-4. Drag **install.mel** into the Viewport
-5. Shelf button is created automatically
-
-<p align="center">
-  <img src="./images/Install_File_00.gif" alt="Dragging install.mel into Maya Viewport and the tool button appearing on the Shelf.">
-</p>
-
-<br>
-
-**Method 2: Manual Install**
-Windows · macOS · Linux
-
-1. Copy folder to: *~/maya/scripts/IDR_BlendshapeControl_v2026.1*
-2. Open Script Editor (Python) and run:
-
-```python
-import os
-import sys
-
-home_dir = os.path.expanduser("~")
-
-paths = [
-    os.path.join(home_dir, "Documents", "maya", "scripts", "IDR_BlendshapeControl_v2026.1", "scripts"),
-    os.path.join(home_dir, "maya", "scripts", "IDR_BlendshapeControl_v2026.1", "scripts"),
-]
-
-for path in paths:
-    if os.path.exists(path):
-        sys.path.insert(0, path)
-        break
-
-import IDR_BlendshapeControl
-IDR_BlendshapeControl.show()
-```
-
-<br>
-<br>
 
 # Quick Walkthrough
 

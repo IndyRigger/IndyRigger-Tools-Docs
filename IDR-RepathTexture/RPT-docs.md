@@ -9,65 +9,12 @@
 
 A powerful toolkit for resolving broken texture paths in Autodesk Maya — IDR RepathTexture scans every file texture node in your scene, displays live found/missing status per texture, and reconnects all missing files in a single click.
 
-<br>
+---
 
-## Requirements
-
-| Category | Specification |
-| :--- | :--- |
-| **Maya Version** | 2022, 2023, 2024, 2025+ |
-| **Language** | Python 3.7+ |
-| **UI Framework** | PySide2 (2022–2024), PySide6 (2025+) |
-| **OS Support** | Windows, macOS, Linux |
-| **License** | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
-
-<br>
-
-## Installation
-
-**Method 1: Drag & Drop (Recommended)**
-
-1. Unzip the package
-2. Place the folder (e.g., *Documents/maya/scripts*)
-3. Open Maya
-4. Drag **install.mel** into the Viewport
-5. Shelf button is created automatically
-
-<p align="center">
-  <img src="../assets/images/IDR-maya-rig-tools-Install-File.gif" alt="How to install IDR Maya Tools">
-</p>
-
-<br>
-
-**Method 2: Manual Install**
-Windows · macOS · Linux
-
-1. Copy folder to: *~/maya/scripts/IDR_RepathTexture_v2026.1*
-2. Open Script Editor (Python) and run:
-
-```python
-import os
-import sys
-
-home_dir = os.path.expanduser("~")
-
-paths = [
-    os.path.join(home_dir, "Documents", "maya", "scripts", "IDR_RepathTexture_v2026.1", "scripts"),
-    os.path.join(home_dir, "maya", "scripts", "IDR_RepathTexture_v2026.1", "scripts"),
-]
-
-for path in paths:
-    if os.path.exists(path):
-        sys.path.insert(0, path)
-        break
-
-import IDR_RepathTexture
-IDR_RepathTexture.show()
-```
-
+# Install Tools
+👉 **[Installation Guide](./Install-Tools.md)**
 <br>
 <br>
-
 
 # Quick Walkthrough
 
@@ -348,12 +295,6 @@ Follow for the latest updates, tutorials, and more rigging content.
 [![Facebook](https://img.shields.io/badge/Facebook-IndyRigger-blue?style=flat-square&logo=facebook)](https://www.facebook.com/indyrigger) [![YouTube](https://img.shields.io/badge/YouTube-IndyRigger-red?style=flat-square&logo=youtube)](https://www.youtube.com/indyrigger) [![Email](https://img.shields.io/badge/Email-rigger.indy@gmail.com-eeeeee?style=flat-square&logo=gmail&labelColor=333333)](mailto:rigger.indy@gmail.com)
 
 <br>
-<br>
-
-🔴 I created this tool and made it freely available for download because I want to support students and beginner riggers who are just starting out but may not have the budget for expensive tools. I hope everyone can have access to good resources to practice and fully develop their skills.
-
-I truly hope that IDR Tools can help you go further on your journey as a rigger. And one day, when you've grown and found success, if you choose to come back and contribute to the development or support this project in any way, I would deeply appreciate it.
-
 <br>
 
 <p align="center">
