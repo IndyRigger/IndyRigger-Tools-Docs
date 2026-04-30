@@ -9,12 +9,13 @@
 
 A powerful toolkit for resolving broken texture paths in Autodesk Maya — IDR RepathTexture scans every file texture node in your scene, displays live found/missing status per texture, and reconnects all missing files in a single click.
 
----
+<br>
 
 # Install Tools
-👉 **[Installation Guide](./Install-Tools.md)**
+👉 **[Installation Guide](../Install-Tools.md)**
 <br>
 <br>
+
 
 # Quick Walkthrough
 

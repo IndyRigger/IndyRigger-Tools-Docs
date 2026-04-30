@@ -9,10 +9,10 @@
 
 A powerful toolkit for fast, consistent coloring in Maya. Includes 115 preset colors (Index & ACES) with accurate viewport matching, plus HEX/RGB/HSV/ACEScg input and Eyedropper. Random, Rainbow, Fade, Blend, and 12 Favorites enable quick multi-object coloring.
 
----
+<br>
 
 # Install Tools
-👉 **[Installation Guide](./Install-Tools.md)**
+👉 **[Installation Guide](../Install-Tools.md)**
 <br>
 <br>
 

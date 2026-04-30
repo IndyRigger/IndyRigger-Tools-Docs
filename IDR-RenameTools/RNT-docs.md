@@ -11,11 +11,10 @@ A powerful toolkit for fast and efficient naming in Autodesk Maya. Built for rig
 
 > <small>💡 Switch between Page 1 (Rename Operation) and Page 2 (Type Setting) using the buttons at the bottom of the window.</small>
 
-
----
+<br>
 
 # Install Tools
-👉 **[Installation Guide](./Install-Tools.md)**
+👉 **[Installation Guide](../Install-Tools.md)**
 <br>
 <br>
 

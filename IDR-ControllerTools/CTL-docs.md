@@ -8,12 +8,13 @@
 
 A powerful toolkit for creating, editing, and managing rigging controllers (NURBS curves) in Autodesk Maya. Designed to streamline repetitive tasks and speed up your rigging workflow, this tool lets you perform complex operations with just a few clicks.
 
----
+<br>
 
 # Install Tools
-👉 **[Installation Guide](./Install-Tools.md)**
+👉 **[Installation Guide](../Install-Tools.md)**
 <br>
 <br>
+
 
 ## Suffix Settings
 

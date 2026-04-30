@@ -19,13 +19,12 @@ A powerful toolkit for building and managing blendshape-based facial rigs in May
 - **⚪ White Button** — No Connection
 - **🟡 Yellow Button** — Connected
 
----
+<br>
 
 # Install Tools
-👉 **[Installation Guide](./Install-Tools.md)**
+👉 **[Installation Guide](../Install-Tools.md)**
 <br>
 <br>
-
 
 # Quick Walkthrough
 
