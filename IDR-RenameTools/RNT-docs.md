@@ -13,12 +13,11 @@ A powerful toolkit for fast and efficient naming in Autodesk Maya. Built for rig
 
 <br>
 
-# Install Tools
-👉 **[Installation Guide](../Install-Tools.md)**
+## Installation Guide
+
+👉 **[Install Tools](../Install-Tools.md)**
 
 <br>
-<br>
-
 
 ## Type Setting
 

@@ -21,11 +21,11 @@ A powerful toolkit for building and managing blendshape-based facial rigs in May
 
 <br>
 
-# Install Tools
-👉 **[Installation Guide](../Install-Tools.md)**
-<br>
-<br>
+## Installation Guide
 
+👉 **[Install Tools](../Install-Tools.md)**
+
+<br>
 
 # Quick Walkthrough
 

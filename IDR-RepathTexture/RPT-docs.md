@@ -11,11 +11,11 @@ A powerful toolkit for resolving broken texture paths in Autodesk Maya — IDR R
 
 <br>
 
-# Install Tools
-👉 **[Installation Guide](../Install-Tools.md)**
-<br>
-<br>
+# Installation Guide
 
+👉 **[Install Tools](../Install-Tools.md)**
+
+<br>
 
 # Quick Walkthrough
 

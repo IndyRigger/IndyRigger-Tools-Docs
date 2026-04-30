@@ -10,9 +10,9 @@ See the sections below for details.
 
 <br>
 
-## Install IDR Tools
+## Installation Guide
 
-👉 **[Installation Guide](./Install-Tools.md)**
+👉 **[Install Tools](./Install-Tools.md)**
 
 <br>
 

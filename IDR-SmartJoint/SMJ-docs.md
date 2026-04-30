@@ -13,12 +13,11 @@ A powerful toolkit for joint creation and orientation in Autodesk Maya, IDR Smar
 
 <br>
 
-# Install Tools
-👉 **[Installation Guide](../Install-Tools.md)**
+## Installation Guide
+
+👉 **[Install Tools](../Install-Tools.md)**
 
 <br>
-<br>
-
 
 # Page 1 — Create Joint / Locator
 
