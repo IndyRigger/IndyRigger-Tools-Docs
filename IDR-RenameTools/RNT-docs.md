@@ -15,6 +15,7 @@ A powerful toolkit for fast and efficient naming in Autodesk Maya. Built for rig
 
 # Install Tools
 👉 **[Installation Guide](../Install-Tools.md)**
+
 <br>
 <br>
 

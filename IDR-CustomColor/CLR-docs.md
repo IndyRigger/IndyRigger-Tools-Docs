@@ -13,6 +13,7 @@ A powerful toolkit for fast, consistent coloring in Maya. Includes 115 preset co
 
 # Install Tools
 👉 **[Installation Guide](../Install-Tools.md)**
+
 <br>
 <br>
 

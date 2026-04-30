@@ -15,6 +15,7 @@ A powerful toolkit for joint creation and orientation in Autodesk Maya, IDR Smar
 
 # Install Tools
 👉 **[Installation Guide](../Install-Tools.md)**
+
 <br>
 <br>
 
