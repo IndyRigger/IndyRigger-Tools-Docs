@@ -40,6 +40,7 @@ Enter a name in the Name Pattern field before pressing Create. Use `#` character
 
 <br>
 
+
 ## Create Joint Center
 
 Creates one joint per selected object, placed at the Bounding Box center with rotation matched from the source object.
@@ -51,7 +52,10 @@ Creates one joint per selected object, placed at the Bounding Box center with ro
 | **3** | Joint / Group / Locator | Joint at pivot + Match Rotation from object |
 | **4** | Vertex / CV / Edit-point | Joint at component position (no rotation match) |
 | **5** | Face | Joint at face center (no rotation match) |
-| **6** | Multiple objects | One joint per object, all rules above apply |
+| **6** | Edge | One joint per edge at its midpoint |
+| **7** | Edge loop *(closed ring on one mesh)* | One joint at the centroid of the loop — N loops → N joints |
+| **8** | Multiple objects | One joint per object, all rules above apply |
+
 
 <p align="center">
   <img src="./images/SMJ_Create_Joint_Center2.gif" alt="Create Joint Center — one joint per selected object at Bbox center.">
@@ -501,18 +505,6 @@ Follow for the latest updates, tutorials, and more rigging content.
 
 [![Facebook](https://img.shields.io/badge/Facebook-IndyRigger-blue?style=flat-square&logo=facebook)](https://www.facebook.com/indyrigger) [![YouTube](https://img.shields.io/badge/YouTube-IndyRigger-red?style=flat-square&logo=youtube)](https://www.youtube.com/indyrigger) [![Email](https://img.shields.io/badge/Email-rigger.indy@gmail.com-eeeeee?style=flat-square&logo=gmail&labelColor=333333)](mailto:rigger.indy@gmail.com)
 
-<br>
-<br>
-
-🔴 เครื่องมือตัวนี้ผมตั้งใจทำและปล่อยให้ โหลดไปใช้กันได้ฟรีๆ ครับ เพราะอยากซัพพอร์ตน้องๆ นักเรียน หรือ Rigger มือใหม่ที่กำลังเริ่มหัดริก แต่อาจจะยังไม่มีงบซื้อเครื่องมือแพงๆ ผมอยากให้ทุกคนมีของดีไว้ใช้ฝึกฝนและอัปสกิลตัวเองกันให้เต็มที่
-
-หวังว่า IDR Tools จะช่วยให้เส้นทางสาย Rigger ของทุกคนไปได้ไกลขึ้นนะครับ... วันไหนที่เก่งแล้ว ประสบความสำเร็จแล้ว จะกลับมาช่วยพัฒนา หรือสนับสนุนโปรเจกต์นี้ในรูปแบบไหน ผมก็ยินดีและขอบคุณมากๆ ครับ
-
-…
-
-🔴 I created this tool and made it freely available for download because I want to support students and beginner riggers who are just starting out but may not have the budget for expensive tools. I hope everyone can have access to good resources to practice and fully develop their skills.
-
-I truly hope that IDR Tools can help you go further on your journey as a rigger. And one day, when you've grown and found success, if you choose to come back and contribute to the development or support this project in any way, I would deeply appreciate it.
 
 <br>
 
