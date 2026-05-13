@@ -7,7 +7,7 @@
   <img src="./images/SHC_UI-OverviewPreview.gif" alt="UI Overview">
 </p>
 
-A powerful toolkit for creating and managing visual separators on Maya shelves — eliminating the tedious manual process of shelf organization. IDR ShelfCraft lets you generate pixel-perfect color bars, gradient dividers, dotted/dashed pattern separators, and transparent spacers directly from a live UI, save them as reusable presets, and deploy them onto any shelf tab in a single click. All settings and presets persist automatically across Maya sessions.
+A powerful toolkit for creating and managing Maya shelf separators — generate color bars, gradients, patterned dividers, and transparent spacers from a live UI, save reusable presets, and deploy them to any shelf tab in one click.
 
 <br>
 
