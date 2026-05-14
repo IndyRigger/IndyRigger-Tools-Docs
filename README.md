@@ -2,7 +2,7 @@
 
 ![Maya](https://img.shields.io/badge/Maya-2022%2B-blue?style=flat-square&logo=autodesk) ![Python](https://img.shields.io/badge/Python-3.7%2B-yellow?style=flat-square&logo=python) ![UI](https://img.shields.io/badge/UI-PySide2-brightgreen?style=flat-square) ![OS](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-0078D6?style=flat-square) [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-nc/4.0/) ![Indy](https://img.shields.io/badge/Tool-IndyRigger-F04141?style=flat-square)
 
-![IndyRigger Maya Rigging Tools](./assets/images/IDR-maya-rig-tools-IndyRigger-Tools.png)
+![IndyRigger Maya Rigging Tools](./assets/images/IDR-maya-rig-tools-IndyRigger-Tools2.png)
 
 
 Documentation for installation and usage of IndyRigger Maya tools.  
@@ -24,6 +24,7 @@ See the sections below for details.
 [📄 IDR SmartJoint v2026.1](./IDR-SmartJoint/SMJ-docs.md)  
 [📄 IDR RepathTexture v2026.1](./IDR-RepathTexture/RPT-docs.md)  
 [📄 IDR ShelfCraft v2026.1](./IDR-ShelfCraft/SHC-docs.md)  
+[📄 IDR BlendshapeControl v2026.1](./IDR-BlendshapeControl/BSC-docs.md)  
 
 [📄 Facial Blendshape Reference ☠️](./Facial-Blendshape-Reference/FBR-docs.md)  
 
