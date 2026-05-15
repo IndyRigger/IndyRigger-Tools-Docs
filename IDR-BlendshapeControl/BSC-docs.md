@@ -324,6 +324,7 @@ SW  │  S  │  SE
 | NE | Cheek Puff Right |
 | SW | Cheek Suck Left |
 | SE | Cheek Suck Right |
+
 <p align="left">
   <img src="./images/BSC_A-CheekPuff.png" alt="Type A — Cheek Puff / Suck example." style="width: 40%; height: auto;">
 </p>
@@ -358,6 +359,7 @@ NW  │  N  │  NE
 | N | Blink Both |
 | W | Half Blink Left |
 | E | Half Blink Right |
+
 <p align="left">
   <img src="./images/BSC_A-EyeBlink.png" alt="Type B — Eye Blink example." style="width: 40%; height: auto;">
 </p>
@@ -387,6 +389,7 @@ Use when movement is confined to the upper-right area.
 | NE | Eyebrow Raise |
 | N | Eyebrow Furrow |
 | E | Eyebrow Lower |
+
 <p align="left">
   <img src="./images/BSC_C-EyebrowMove.png" alt="Type C — Eyebrow Move example." style="width: 35%; height: auto;">
 </p>
@@ -412,6 +415,7 @@ Use when movement is upward only.
 | Zone | Example Blendshape |
 | :--- | :--- |
 | N | Jaw Open |
+
 <p align="left">
   <img src="./images/BSC_D-JawOpen.png" alt="Type D — Jaw Open (center) example." style="width: 30%; height: auto;">
 </p>
@@ -440,6 +444,7 @@ Use when movement is up and down.
 | :--- | :--- |
 | N | Brow Center Raise |
 | S | Brow Center Press |
+
 <p align="left">
   <img src="./images/BSC_E-BrowCenter.png" alt="Type E — Brow Center Up / Down example." style="width: 25%; height: auto;">
 </p>
