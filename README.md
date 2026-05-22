@@ -24,8 +24,11 @@ See the sections below for details.
 [📄 SmartJoint v2026.1](./IDR-SmartJoint/SMJ-docs.md)  
 [📄 RepathTexture v2026.1](./IDR-RepathTexture/RPT-docs.md)  
 [📄 ShelfCraft v2026.1](./IDR-ShelfCraft/SHC-docs.md)  
+[📄 PlayblastExpress v2026.1](./IDR-PlayblastExpress/PBX-docs.md)  
 [📄 BlendshapeControl v2026.1](./IDR-BlendshapeControl/BSC-docs.md)  
-[📄 Facial Blendshape Reference](./Facial-Blendshape-Reference/FBR-docs.md)  
+
+
+[📄 Facial Blendshape Reference ☠️](./Facial-Blendshape-Reference/FBR-docs.md)  
 
 
 <br>
