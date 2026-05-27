@@ -2,21 +2,16 @@
 
 ![Maya](https://img.shields.io/badge/Maya-2022%2B-blue?style=flat-square&logo=autodesk) ![Python](https://img.shields.io/badge/Python-3.7%2B-yellow?style=flat-square&logo=python) ![UI](https://img.shields.io/badge/UI-PySide2-brightgreen?style=flat-square) ![OS](https://img.shields.io/badge/OS-Windows%20%7C%20macOS%20%7C%20Linux-0078D6?style=flat-square) [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-nc/4.0/) ![Indy](https://img.shields.io/badge/Tool-IndyRigger-F04141?style=flat-square)
 
-![IndyRigger Maya Rigging Tools](./assets/images/IDR-maya-rig-tools-IndyRigger-Tools2.png)
 
-
-Documentation for installation and usage of IndyRigger Maya tools.  
-See the sections below for details.
-
-<br>
-
-## Installation Guide
-
-👉 **[Install Tools](./Tools-Docs/Install-Tools.md)**
+This repository hosts a powerful toolkit for Autodesk Maya, along with its installation guides, usage documentation, and technical knowledge base.
 
 <br>
 
 ## Tools Documentation
+![IndyRigger Maya Rigging Tools](./assets/images/IDR-maya-rig-tools-IndyRigger-Tools2.png)
+This repository hosts the installation, usage documentation, and technical knowledge base for the IndyRigger Maya toolset.  
+
+👉 **[Installation Guide](./Tools-Docs/Install-Tools.md)**
 
 [📄 ControllerTools v2026.1](./Tools-Docs/IDR-ControllerTools/CTL-docs.md)  
 [📄 RenameTools v2026.1](./Tools-Docs/IDR-RenameTools/RNT-docs.md)  
@@ -30,12 +25,16 @@ See the sections below for details.
 <br>
 
 ## Knowledge
+Useful tips, technical workflows, and fixes for common problems.  
 
 [📖 Facial Blendshape Reference ☠️](./Knowledge/Facial-Blendshape-Reference/FBR-docs.md)  
 [📖 Maya UI Color Palette](./Knowledge/Maya-UI-Color-Palette/Maya-UI-Color-Palette.md)  
 
+
 <br>
-<br>
+
+---
+
 
 
 ## Get the Tools
