@@ -24,7 +24,7 @@
 5. A shelf button will be created automatically
 
 <p align="center">
-  <img src="./assets/images/IDR-maya-rig-tools-Install-File.gif" alt="How to install IDR Maya Tools">
+  <img src="../assets/images/IDR-maya-rig-tools-Install-File.gif" alt="How to install IDR Maya Tools">
 </p>
 
 <br>

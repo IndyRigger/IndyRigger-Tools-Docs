@@ -12,24 +12,27 @@ See the sections below for details.
 
 ## Installation Guide
 
-👉 **[Install Tools](./Install-Tools.md)**
+👉 **[Install Tools](./Tools-Docs/Install-Tools.md)**
 
 <br>
 
 ## Tools Documentation
 
-[📄 ControllerTools v2026.1](./IDR-ControllerTools/CTL-docs.md)  
-[📄 RenameTools v2026.1](./IDR-RenameTools/RNT-docs.md)  
-[📄 CustomColor v2026.1](./IDR-CustomColor/CLR-docs.md)  
-[📄 SmartJoint v2026.1](./IDR-SmartJoint/SMJ-docs.md)  
-[📄 RepathTexture v2026.1](./IDR-RepathTexture/RPT-docs.md)  
-[📄 ShelfCraft v2026.1](./IDR-ShelfCraft/SHC-docs.md)  
-[📄 PlayblastExpress v2026.1](./IDR-PlayblastExpress/PBX-docs.md)  
-[📄 BlendshapeControl v2026.1](./IDR-BlendshapeControl/BSC-docs.md)  
+[📄 ControllerTools v2026.1](./Tools-Docs/IDR-ControllerTools/CTL-docs.md)  
+[📄 RenameTools v2026.1](./Tools-Docs/IDR-RenameTools/RNT-docs.md)  
+[📄 CustomColor v2026.1](./Tools-Docs/IDR-CustomColor/CLR-docs.md)  
+[📄 SmartJoint v2026.1](./Tools-Docs/IDR-SmartJoint/SMJ-docs.md)  
+[📄 RepathTexture v2026.1](./Tools-Docs/IDR-RepathTexture/RPT-docs.md)  
+[📄 ShelfCraft v2026.1](./Tools-Docs/IDR-ShelfCraft/SHC-docs.md)  
+[📄 PlayblastExpress v2026.1](./Tools-Docs/IDR-PlayblastExpress/PBX-docs.md)  
+[📄 BlendshapeControl v2026.1](./Tools-Docs/IDR-BlendshapeControl/BSC-docs.md)  
 
+<br>
 
-[📄 Facial Blendshape Reference ☠️](./Facial-Blendshape-Reference/FBR-docs.md)  
+## Knowledge
 
+[📖 Facial Blendshape Reference ☠️](./Knowledge/Facial-Blendshape-Reference/FBR-docs.md)  
+[📖 Maya UI Color Palette](./Knowledge/Maya-UI-Color-Palette/Maya-UI-Color-Palette.md)  
 
 <br>
 <br>
