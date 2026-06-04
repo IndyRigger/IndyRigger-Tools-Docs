@@ -119,6 +119,7 @@ Secondary color — independent. If A = B, a subtle vertical gradient is used; i
 | **Left-click** | Opens Qt Color Dialog independently — does **not** affect Color A |
 | **RMB** | Quick-color menu — same 9 presets (sets Color B only) |
 | **Spacer mode** | Button disabled, frosted-glass appearance |
+
 > <small>💡 Picking Color A always syncs Color B to the same value. Adjust Color B afterward only if you need a gradient effect.</small>
 
 <br>
