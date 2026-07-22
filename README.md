@@ -21,6 +21,7 @@ This repository hosts the installation, usage documentation, and technical knowl
 [📄 ShelfCraft v2026.1](./Tools-Docs/IDR-ShelfCraft/SHC-docs.md)  
 [📄 PlayblastExpress v2026.1](./Tools-Docs/IDR-PlayblastExpress/PBX-docs.md)  
 [📄 BlendshapeControl v2026.1](./Tools-Docs/IDR-BlendshapeControl/BSC-docs.md)  
+[📄 ShapeZone v2026.1](./Tools-Docs/IDR-ShapeZone/SZN-docs.md)  
 
 <br>
 
